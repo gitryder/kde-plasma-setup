@@ -102,7 +102,32 @@ echo -e "\e[1;34m...System Settings > Application Style > Window Decorations > M
 # Installation of Global Theme
 echo -e "\e[1;32mInstalling your favorite Global Theme...\e[0m"
 
+echo -e "\e[1;34m> Copying 'Glassy' theme...\e[0m"
 mkdir -p ~/.local/share/plasma/desktoptheme/Glassy/
-cd ~/.local/share/plasma/desktoptheme/Glassy/
+cp -r themes/Glassy/ ~/.local/share/plasma/desktoptheme/Glassy/
+
+echo -e "\e[1;34m> Copying .kde4 config...\e[0m"
+mkdir -p ~/.kde4/share/
+cp -r kde4/share/ ~/.kde4/share
+
+echo "
+ /$$$$$$$$ /$$                       /$$$$$$$$                 /$$
+|__  $$__/| $$                      | $$_____/                | $$
+   | $$   | $$$$$$$   /$$$$$$       | $$       /$$$$$$$   /$$$$$$$
+   | $$   | $$__  $$ /$$__  $$      | $$$$$   | $$__  $$ /$$__  $$
+   | $$   | $$  \ $$| $$$$$$$$      | $$__/   | $$  \ $$| $$  | $$
+   | $$   | $$  | $$| $$_____/      | $$      | $$  | $$| $$  | $$
+   | $$   | $$  | $$|  $$$$$$$      | $$$$$$$$| $$  | $$|  $$$$$$$
+   |__/   |__/  |__/ \_______/      |________/|__/  |__/ \_______/
+"
+echo -e "\e[1;32m> Installation has finished\e[0m"
+echo -e "\e[1;32m> Reboot now? [y/n]\e[0m"; read reboot 
+if [$reboot == 'y'] || [$reboot == 'Y']; then
+  reboot
+else 
+  echo -e "\e[1;31m> Installation Ended\e[0m"
+fi
+
+
 
 
