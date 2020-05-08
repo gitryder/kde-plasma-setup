@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=100
+PreloadWeight=85
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=540
@@ -48,7 +48,13 @@ plugin=org.kde.plasma.icontasks
 [Containments][1][Applets][4][Configuration]
 PreloadWeight=0
 
+[Containments][1][Applets][4][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][1][Applets][4][Configuration][General]
+highlightWindows=true
+indicateAudioStreams=false
 launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:openlp.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
 
 [Containments][1][Applets][50]
@@ -56,7 +62,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 SystrayContainmentId=51
 
 [Containments][1][Applets][8]
@@ -115,7 +121,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][51][Applets][55][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][51][Applets][56][Configuration]
 PreloadWeight=42
@@ -209,6 +215,7 @@ knownItems=tomatoid,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.
 shownItems=touchpad,flameshot,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,kazam
 
 [Containments][52]
+ItemGeometriesHorizontal=
 activityId=9221f26a-6837-49d2-ba34-0f61fcb59d7a
 formfactor=0
 immutability=1
@@ -230,15 +237,14 @@ ToolBoxButtonX=415
 alignment=1
 arrangement=1
 iconSize=2
-positions=1,8,desktop:/5.png,0,4,desktop:/test,0,5,desktop:/3.webp,0,2,desktop:/4.png,0,3,desktop:/1.png,0,0,desktop:/2.png,0,1
 sortMode=-1
 
 [Containments][52][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Downloads/wallpaperflare.com_wallpaper(1).jpg
+Image=file:///home/dan/Downloads/wallpaperflare.com_wallpaper(2).jpg
 
 [Containments1Appletsts][4][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:google-chrome-beta.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:openlp.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/4.png,0,desktop:/frame_2.2.png.webp,0,desktop:/Screenshot_20200501_122714.png,0,desktop:/test,0,desktop:/Screenshot_20200501_123127.png,0,desktop:/Screenshot_20200501_122851.png,0,desktop:/1.png,0,desktop:/2.png,0,desktop:/3.webp,0,desktop:/ImagedatabaseApplication,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/5.png,0
+itemsOnDisabledScreens=0,6,desktop:/ImagedatabaseApplication,desktop:/frame_2.2.png.webp,desktop:/Screenshot_20200501_122851.png,desktop:/Screenshot_20200501_123230.png,desktop:/Screenshot_20200501_122714.png,desktop:/Screenshot_20200501_123127.png
+screenMapping=desktop:/ImagedatabaseApplication,0,desktop:/frame_2.2.png.webp,0,desktop:/Screenshot_20200501_122851.png,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/Screenshot_20200501_122714.png,0,desktop:/Screenshot_20200501_123127.png,0
