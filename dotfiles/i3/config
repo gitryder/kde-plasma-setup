@@ -187,11 +187,8 @@ bar {
 }
 
 #Window Gaps decoration
-#gaps outer 10
-#gaps inner 10
-
-#gaps inner all 10
-#gaps outer all 10
+gaps inner 7 
+gaps outer 7
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -202,17 +199,19 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 
+#Hide all window borders when using i3-gaps
+for_window [class=".*"] border pixel 0 hide_edge_borders both
+
 # Open Terminator on Workspace 1
-exec terminator
-assign [class="Terminator"] $ws1
+# assign [class="Terminator"] $ws1
 
 # Open Firefox on Workspace 2
-exec firefox 
-assign [class="firefox"] $ws2
+# bindsym $mod+shift+f firefox 
+# assign [class="firefox"] $ws2
 
 # Open Android Studio on workspace 3
-exec android-studio
-assign [class="jetbrains-studio"] $ws3
+# bindsym $mod+shift+a exec android-studio
+# assign [class="jetbrains-studio"] $ws3
 
 # Always set my wallpaper automatically
 exec_always feh --bg-scale ~/.config/i3/i3-wallpaper.png
