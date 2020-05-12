@@ -18,3 +18,6 @@ done
 
 # Copy the gtkrc-2.0 file which is outside the .config folder
 cp ~/.gtkrc-2.0 $BACKUP_PATH  
+
+# Copy the .vimrc file
+cp ~/.vimrc $BACKUP_PATH
