@@ -215,3 +215,13 @@ for_window [class=".*"] border pixel 0 hide_edge_borders both
 
 # Always set my wallpaper automatically
 exec_always feh --bg-scale ~/.config/i3/i3-wallpaper.png
+
+# Window border colors
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #2EA197
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #2EA197
+client.unfocused        #333333 #222222 #888888 #292d2e   #DD302E
+client.urgent           #2f343a #900000 #ffffff #900000   #2EA197
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #2EA197
+
+
