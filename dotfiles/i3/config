@@ -215,4 +215,4 @@ exec android-studio
 assign [class="jetbrains-studio"] $ws3
 
 # Always set my wallpaper automatically
-exec_always feh --bg-scale /home/dan/Downloads/your-wallpaper.jpg
+exec_always feh --bg-scale ~/.config/i3/i3-wallpaper.png
