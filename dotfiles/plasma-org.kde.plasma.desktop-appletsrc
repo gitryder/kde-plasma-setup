@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=85
+PreloadWeight=92
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=540
@@ -55,7 +55,7 @@ DialogWidth=800
 [Containments][1][Applets][4][Configuration][General]
 highlightWindows=true
 indicateAudioStreams=false
-launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:openlp.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:google-chrome-unstable.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
 
 [Containments][1][Applets][50]
 immutability=1
@@ -240,11 +240,11 @@ iconSize=2
 sortMode=-1
 
 [Containments][52][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Downloads/wallpaperflare.com_wallpaper(2).jpg
+Image=file:///home/dan/Downloads/wallpaperflare.com_wallpaper(3).jpg
 
 [Containments1Appletsts][4][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:google-chrome-beta.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:openlp.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,6,desktop:/ImagedatabaseApplication,desktop:/frame_2.2.png.webp,desktop:/Screenshot_20200501_122851.png,desktop:/Screenshot_20200501_123230.png,desktop:/Screenshot_20200501_122714.png,desktop:/Screenshot_20200501_123127.png
-screenMapping=desktop:/ImagedatabaseApplication,0,desktop:/frame_2.2.png.webp,0,desktop:/Screenshot_20200501_122851.png,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/Screenshot_20200501_122714.png,0,desktop:/Screenshot_20200501_123127.png,0
+itemsOnDisabledScreens=
+screenMapping=desktop:/Screenshot_20200501_122714.png,0,desktop:/Screenshot_20200501_123127.png,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/frame_2.2.png.webp,0,desktop:/ImagedatabaseApplication,0,desktop:/Screenshot_20200501_122851.png,0
