@@ -21,3 +21,9 @@ cp ~/.gtkrc-2.0 $BACKUP_PATH
 
 # Copy the .vimrc file
 cp ~/.vimrc $BACKUP_PATH
+
+# Copy the .bashrc file
+cp ~/.bashrc $BACKUP_PATH
+
+# Copy /.local/share/applications/
+cp -r ~/.local/share/applications/ ~/Documents/kde-plasma-setup/dotfiles/applications/

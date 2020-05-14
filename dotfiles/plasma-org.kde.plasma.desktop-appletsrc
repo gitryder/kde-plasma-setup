@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=92
+PreloadWeight=89
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=540
@@ -55,7 +55,7 @@ DialogWidth=800
 [Containments][1][Applets][4][Configuration][General]
 highlightWindows=true
 indicateAudioStreams=false
-launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:google-chrome-unstable.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
 
 [Containments][1][Applets][50]
 immutability=1
@@ -215,7 +215,7 @@ knownItems=tomatoid,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.
 shownItems=touchpad,flameshot,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,kazam
 
 [Containments][52]
-ItemGeometriesHorizontal=
+ItemGeometriesHorizontal=Applet-70:1088,176,272,288,0;
 activityId=9221f26a-6837-49d2-ba34-0f61fcb59d7a
 formfactor=0
 immutability=1
@@ -223,6 +223,21 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][52][Applets][70]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][52][Applets][70][Configuration]
+PreloadWeight=34
+
+[Containments][52][Applets][70][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][52][Applets][70][Configuration][General]
+color=green
+noteId=5de6b260-230f-4306-af1f-457e053fd3
 
 [Containments][52][ConfigDialog]
 DialogHeight=540
@@ -247,4 +262,4 @@ launchers=applications:org.kde.dolphin.desktop,applications:firefox.desktop,appl
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Screenshot_20200501_122714.png,0,desktop:/Screenshot_20200501_123127.png,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/frame_2.2.png.webp,0,desktop:/ImagedatabaseApplication,0,desktop:/Screenshot_20200501_122851.png,0
+screenMapping=desktop:/ImagedatabaseApplication,0,desktop:/Screenshot_20200501_122851.png,0,desktop:/Screenshot_20200501_123127.png,0,desktop:/Screenshot_20200501_122714.png,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/frame_2.2.png.webp,0
