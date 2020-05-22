@@ -151,3 +151,14 @@ alias gitcom="git commit -m"
 # Default Editor
 export EDITOR='vim'
 export VISUAL='vim'
+
+# Alias for dotfiles backup
+alias mkbackup="./mkbackup.sh"
+
+# Alias for pamac search/install
+alias pams="pamac search"
+alias pami="pamac install"
+alias pamr="pamac remove"
+
+# Alias for printing local ipaddr
+alias mli="ifconfig | grep 192.168 | awk '{print substr(\$2,6,24)}'"

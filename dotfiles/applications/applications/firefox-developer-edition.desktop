@@ -1,0 +1,29 @@
+[Desktop Action new-private-window]
+Exec=/usr/lib/firefox-developer-edition/firefox --private-window %u
+Name=New Private Window
+
+[Desktop Action new-window]
+Exec=/usr/lib/firefox-developer-edition/firefox --new-window %u
+Name=New Window
+
+[Desktop Entry]
+Actions=new-window;new-private-window;
+Categories=Network;WebBrowser;
+Comment=Browse the World Wide Web
+Exec=/usr/lib/firefox-developer-edition/firefox %u
+GenericName=Web Browser
+Icon=/home/dan/Downloads/firefox-browser.png
+Keywords=Internet;WWW;Browser;Web;Explorer
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;
+Name=Firefox Developer Edition
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+StartupWMClass=firefoxdeveloperedition
+Terminal=0
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-MultipleArgs=false

@@ -1,0 +1,25 @@
+[Desktop Entry]
+Categories=Qt;KDE;Settings;
+Comment[en_IN]=Configuration tools for your computer
+Comment=Configuration tools for your computer
+Exec=systemsettings5
+GenericName[en_IN]=System Settings
+GenericName=System Settings
+Icon=/home/dan/Downloads/Alecive-Flatwoken-Apps-Settings.ico
+MimeType=
+Name[en_IN]=System Settings
+Name=System Settings
+NoDisplay=false
+OnlyShowIn=KDE;
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=org.kde.systemsettings
+X-DBUS-StartupType=unique
+X-DocPath=systemsettings/index.html
+X-KDE-RunOnDiscreteGpu=false
+X-KDE-StartupNotify=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Utility;TextEditor;Development;
+Comment=A hackable text editor for the 21st Century
+Exec=env ATOM_DISABLE_SHELLING_OUT_FOR_ENVIRONMENT=false /usr/bin/atom %F
+GenericName=Text Editor
+Icon=/home/dan/Downloads/atom.png
+MimeType=text/plain;
+Name=Atom
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+StartupWMClass=atom
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
