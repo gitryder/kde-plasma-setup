@@ -49,7 +49,7 @@ then
             |__/      |__/                
     "
 
-    pamac install firefox-developer-edition spotify typora atom visual-studio-code-bin atom android-studio terminator github-cli-git virtualbox virtualbox-host-dkms kazam peek timeshift flameshot balena-etcher kvantum-qt5-git albert vim neofetch unzip feh 
+pamac install firefox-developer-edition spotify typora atom visual-studio-code-bin atom android-studio terminator github-cli-git virtualbox virtualbox-host-dkms kazam peek timeshift flameshot balena-etcher kvantum-qt5-git albert vim neofetch unzip feh powerline otf-sfmono-patched
 
 else
     echo "Skipping Installation of Apps"
