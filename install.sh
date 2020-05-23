@@ -112,6 +112,9 @@ cp -r dotfiles/terminator/ ~/.config/
 echo -e "\e[1;34m==> Copying Vim Config...\e[0m"
 cp dotfiles/.vimrc ~/
 
+echo -e "\e[1;34m==> Copying Bash Config...\e[0m"
+cp dotfiles/.bashrc ~/
+
 echo -e "\e[1;34m==> Copying Application .desktop files...\e[0m"
 mkdir -p ~/.local/share/applications/
 cp dotfiles/applications ~/.local/share/applications/ 
