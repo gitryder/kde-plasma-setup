@@ -32,28 +32,21 @@ echo "
 #sudo sed --in-place "s/#CheckAURUpdates/CheckAURUpdates/" /etc/pamac.conf
 
 # Installation of Apps
-echo -e "\e[1;32mBegin installing your apps? [y/n]\e[0m"; read choice
-if [$choice == 'y'] || [$choice == 'Y']
-then
-    echo "
-      /$$$$$$                               
-     /$$__  $$                              
-    | $$  \ $$  /$$$$$$   /$$$$$$   /$$$$$$$
-    | $$$$$$$$ /$$__  $$ /$$__  $$ /$$_____/
-    | $$__  $$| $$  \ $$| $$  \ $$|  $$$$$$ 
-    | $$  | $$| $$  | $$| $$  | $$ \____  $$
-    | $$  | $$| $$$$$$$/| $$$$$$$/ /$$$$$$$/
-    |__/  |__/| $$____/ | $$____/ |_______/ 
-            | $$      | $$                
-            | $$      | $$                
-            |__/      |__/                
-    "
+echo "
+  /$$$$$$                               
+ /$$__  $$                              
+| $$  \ $$  /$$$$$$   /$$$$$$   /$$$$$$$
+| $$$$$$$$ /$$__  $$ /$$__  $$ /$$_____/
+| $$__  $$| $$  \ $$| $$  \ $$|  $$$$$$ 
+| $$  | $$| $$  | $$| $$  | $$ \____  $$
+| $$  | $$| $$$$$$$/| $$$$$$$/ /$$$$$$$/
+|__/  |__/| $$____/ | $$____/ |_______/ 
+          | $$      | $$                
+          | $$      | $$                
+          |__/      |__/                
+"
 
 pamac install firefox-developer-edition spotify typora atom visual-studio-code-bin atom android-studio terminator github-cli-git virtualbox virtualbox-host-dkms kazam peek timeshift flameshot balena-etcher kvantum-qt5-git albert vim neofetch unzip feh powerline otf-sfmono-patched
-
-else
-    echo "Skipping Installation of Apps"
-fi
 
 # Installation of fonts
 echo "
@@ -117,7 +110,7 @@ cp dotfiles/.bashrc ~/
 
 echo -e "\e[1;34m==> Copying Application .desktop files...\e[0m"
 mkdir -p ~/.local/share/applications/
-cp dotfiles/applications ~/.local/share/applications/ 
+cp -r dotfiles/applications ~/.local/share/applications/ 
 
 # Installation of aurorae themes
 echo "
@@ -161,8 +154,8 @@ echo "
    |__/   |__/  |__/ \_______/      |________/|__/  |__/ \_______/
 "
 echo -e "\e[1;32m==> Installation has finished\e[0m"
-echo -e "\e[1;32m==> Reboot now? [y/n]\e[0m"; read reboot 
-if [$reboot == 'y'] || [$reboot == 'Y']; then
+echo -e "\e[1;32m==> Reboot now? [y/n]\e[0m"; read choice 
+if [ $choice == 'y' ]; then
   reboot
 else 
   echo -e "\e[1;31m==> Installation Ended\e[0m"
