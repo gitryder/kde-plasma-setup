@@ -7,6 +7,7 @@
 :set t_Co=256
 :set noshowmode
 :set noshowcmd
+:set smartindent
 :set shortmess+=F
 :set incsearch
 
