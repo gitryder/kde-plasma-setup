@@ -3,7 +3,7 @@ Categories=GNOME;GTK;Utility;TextEditor;Development;
 Comment=A hackable text editor for the 21st Century
 Exec=env ATOM_DISABLE_SHELLING_OUT_FOR_ENVIRONMENT=false /usr/bin/atom %F
 GenericName=Text Editor
-Icon=/home/dan/Downloads/atom.png
+Icon=/home/dan/Documents/kde-plasma-setup/icons/atom.png
 MimeType=text/plain;
 Name=Atom
 NoDisplay=false

@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=540
@@ -240,11 +240,11 @@ iconSize=2
 sortMode=-1
 
 [Containments][52][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Downloads/wallpaperflare.com_wallpaper(3).jpg
+Image=file:///home/dan/Documents/kde-plasma-setup/wallpapers/5.png
 
 [Containments1Appletsts][4][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:google-chrome-beta.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:openlp.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/ImagedatabaseApplication,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/Screenshot_20200501_122714.png,0,desktop:/Screenshot_20200501_122851.png,0,desktop:/frame_2.2.png.webp,0,desktop:/Screenshot_20200501_123127.png,0
+screenMapping=desktop:/Screenshot_20200501_122851.png,0,desktop:/Screenshot_20200501_123127.png,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/frame_2.2.png.webp,0,desktop:/Screenshot_20200501_122714.png,0,desktop:/ImagedatabaseApplication,0

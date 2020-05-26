@@ -143,14 +143,14 @@ ex ()
 export GEM_HOME="$HOME/gems"
 export PATH="/home/dan/.gem/ruby/2.7.0/bin:$PATH"
 
+# Default Editor
+export EDITOR='vim'
+export VISUAL='vim'
+
 # Aliases for git commands
 alias gitp="git push"
 alias gitst="git status"
 alias gitcom="git commit -m"
-
-# Default Editor
-export EDITOR='vim'
-export VISUAL='vim'
 
 # Alias for dotfiles backup
 alias mkbackup="./mkbackup.sh"
@@ -159,6 +159,9 @@ alias mkbackup="./mkbackup.sh"
 alias pams="pamac search"
 alias pami="pamac install"
 alias pamr="pamac remove"
+
+# Alias for cd-ing to kde-plasma-setup
+alias cdbak="cd ~/Documents/kde-plasma-setup/"
 
 # Alias for printing local ipaddr
 alias mli="ifconfig | grep 192.168 | awk '{print substr(\$2,6,24)}'"

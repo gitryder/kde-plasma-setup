@@ -2,7 +2,7 @@
 Categories=GNOME;GTK;Utility;TerminalEmulator;System;
 Comment=Multiple terminals in one window
 Exec=terminator
-Icon=/home/dan/Downloads/terminator.ico
+Icon=/home/dan/Documents/kde-plasma-setup/icons/terminator.ico
 Keywords=terminal;shell;prompt;command;commandline;
 Name=Terminator
 NoDisplay=false
