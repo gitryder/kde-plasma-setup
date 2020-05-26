@@ -16,8 +16,10 @@
 :nnoremap ,r :source %<cr>
 :inoremap jj <ESC>
 
-let mapleader=" "
-nnoremap <leader>sh :split
-nnoremap <leader>sv :vsplit
-nnoremap <leader>h :wincmd h<cr>
-nnoremap <leader>l :wincmd l<cr>
+:let mapleader=" "
+:nnoremap <leader>sh :split
+:nnoremap <leader>sv :vsplit
+:nnoremap <leader>h :wincmd h<cr>
+:nnoremap <leader>j :wincmd j<cr>
+:nnoremap <leader>k :wincmd k<cr>
+:nnoremap <leader>l :wincmd l<cr>
