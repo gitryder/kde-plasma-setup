@@ -14,6 +14,8 @@
 :nnoremap ,w :w<cr>
 :nnoremap ,q :q!<cr>
 :nnoremap ,r :source %<cr>
+:nnoremap ,a :bprevious
+:nnoremap ,f :bnext
 :inoremap jj <ESC>
 
 :let mapleader=" "
