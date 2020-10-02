@@ -228,7 +228,7 @@ DialogWidth=910
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=452
 iconSize=3
-positions=1,13,desktop:/Penn Masala,0,0,desktop:/Why-Prophecies-Fail-Koinonia-with-Apostle-Joshua-Selman-Nimmak-mp3-image.jpg,0,1,desktop:/Text File.json,0,2,desktop:/Text File.txt,0,3
+positions=1,13,desktop:/Preachings,0,0
 sortMode=-1
 
 [Containments][61][Wallpaper][org.kde.image][General]
@@ -240,4 +240,4 @@ Provider=unsplash
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Penn Masala,0,desktop:/Text File.json,0,desktop:/Text File.txt,0,desktop:/Why-Prophecies-Fail-Koinonia-with-Apostle-Joshua-Selman-Nimmak-mp3-image.jpg,0
+screenMapping=desktop:/Preachings,0

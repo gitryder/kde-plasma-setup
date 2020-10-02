@@ -138,7 +138,6 @@ ex ()
   fi
 }
 
-
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="/home/dan/.gem/ruby/2.7.0/bin:$PATH"
@@ -165,3 +164,6 @@ alias cdbak="cd ~/Documents/kde-plasma-setup/"
 
 # Alias for printing local ipaddr
 alias mli="ifconfig | grep 192.168 | awk '{print substr(\$2,6,24)}'"
+
+# Use a custom bash prompt
+PS1="\[\e[33m\]\u\e[00m\[\e[32m\]@\e[00m\[\e[34m\]\h\e[00m \[\e[31m\]:\e[00m \[\e[35m\]$(mli)\e[00m \[\e[31m\]>\e[00m \w \n-> "
