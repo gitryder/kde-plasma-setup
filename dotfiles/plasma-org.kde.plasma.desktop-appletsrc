@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=540
@@ -31,7 +31,8 @@ DialogWidth=720
 alphaSort=true
 favorites=firefox.desktop,qupzilla.desktop,org.kde.dolphin.desktop,org.kde.konversation.desktop,libreoffice-writer.desktop,cantata.desktop,kde4-digikam.desktop,org.kde.konsole.desktop,octopi.desktop,systemsettings.desktop
 favoritesPortedToKAstats=true
-icon=start-here-kde-plasma
+icon=start-here-symbolic
+menuItems=bookmark:t,application:t,leave:t,oftenUsed:f,used:f,computer:f
 showAppsByName=true
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 
@@ -55,14 +56,15 @@ DialogWidth=800
 [Containments][1][Applets][4][Configuration][General]
 highlightWindows=true
 indicateAudioStreams=false
-launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:spotify.desktop,applications:dynalist.desktop,applications:typora.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop
+maxStripes=3
 
 [Containments][1][Applets][50]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=0
+PreloadWeight=100
 SystrayContainmentId=51
 
 [Containments][1][Applets][8]
@@ -70,10 +72,10 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][1][Applets][8][Configuration]
-PreloadWeight=0
+PreloadWeight=45
 
 [Containments][1][Applets][8][Configuration][Appearance]
-fontFamily=SF Pro Display
+fontFamily=Cantarell
 use24hFormat=2
 
 [Containments][1][Applets][8][Configuration][ConfigDialog]
@@ -81,8 +83,8 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][1][ConfigDialog]
-DialogHeight=83
-DialogWidth=1280
+DialogHeight=85
+DialogWidth=1366
 
 [Containments][1][Configuration]
 PreloadWeight=0
@@ -104,7 +106,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][51][Applets][52][Configuration]
-PreloadWeight=0
+PreloadWeight=100
 
 [Containments][51][Applets][53]
 immutability=1
@@ -113,18 +115,30 @@ plugin=org.kde.plasma.clipboard
 [Containments][51][Applets][53][Configuration]
 PreloadWeight=0
 
+[Containments][51][Applets][54]
+immutability=1
+plugin=org.kde.plasma.devicenotifier
+
 [Containments][51][Applets][54][Configuration]
-PreloadWeight=42
+PreloadWeight=100
 
 [Containments][51][Applets][55]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][51][Applets][55][Configuration]
-PreloadWeight=0
+PreloadWeight=15
+
+[Containments][51][Applets][56]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
 
 [Containments][51][Applets][56][Configuration]
 PreloadWeight=42
+
+[Containments][51][Applets][57]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][51][Applets][57][Configuration]
 PreloadWeight=42
@@ -134,17 +148,29 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][51][Applets][58][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][51][Applets][58][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
+[Containments][51][Applets][59]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
 [Containments][51][Applets][59][Configuration]
 PreloadWeight=42
 
+[Containments][51][Applets][60]
+immutability=1
+plugin=tomatoid
+
 [Containments][51][Applets][60][Configuration]
-PreloadWeight=42
+PreloadWeight=52
+
+[Containments][51][Applets][60][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][51][Applets][61]
 immutability=1
@@ -161,60 +187,30 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][51][Applets][63][Configuration]
-PreloadWeight=0
+PreloadWeight=95
+
+[Containments][51][Applets][64]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
 
 [Containments][51][Applets][64][Configuration]
-PreloadWeight=42
+PreloadWeight=70
 
 [Containments][51][Applets][65]
 immutability=1
-plugin=org.kde.kscreen
+plugin=org.kde.plasma.mediacontroller
 
 [Containments][51][Applets][65][Configuration]
 PreloadWeight=0
 
-[Containments][51][Applets][66][Configuration]
-PreloadWeight=42
-
-[Containments][51][Applets][67]
-immutability=1
-plugin=touchpad
-
-[Containments][51][Applets][67][Configuration]
-PreloadWeight=0
-
-[Containments][51][Applets][67][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][51][Applets][68]
-immutability=1
-plugin=org.kde.plasma.diskquota
-
-[Containments][51][Applets][68][Configuration]
-PreloadWeight=0
-
-[Containments][51][Applets][69]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
-[Containments][51][Applets][69][Configuration]
-PreloadWeight=0
-
-[Containments][51][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][51][Configuration]
-PreloadWeight=0
-
 [Containments][51][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.volume,MSM Notifier for Plasma5,flameshot,touchpad,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.diskquota,org.kde.plasma.networkmanagement,kazam,Update Manager
-hiddenItems=MSM Notifier for Plasma5,Update Manager
+extraItems=tomatoid,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume
 knownItems=tomatoid,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume
-shownItems=touchpad,flameshot,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,kazam
 
-[Containments][52]
+[Containments][52][Wallpaper][org.kde.image][General]
+Image=/home/dan/Documents/kde-plasma-setup/wallpapers/Color Blaze 15 - 16x9.jpg
+
+[Containments][61]
 ItemGeometriesHorizontal=
 activityId=9221f26a-6837-49d2-ba34-0f61fcb59d7a
 formfactor=0
@@ -224,27 +220,24 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][52][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][61][ConfigDialog]
+DialogHeight=451
+DialogWidth=910
 
-[Containments][52][Configuration]
-PreloadWeight=0
-
-[Containments][52][General]
+[Containments][61][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=415
-alignment=1
-arrangement=1
-iconSize=2
+ToolBoxButtonX=452
+iconSize=3
+positions=1,13,desktop:/Penn Masala,0,0,desktop:/Why-Prophecies-Fail-Koinonia-with-Apostle-Joshua-Selman-Nimmak-mp3-image.jpg,0,1,desktop:/Text File.json,0,2,desktop:/Text File.txt,0,3
 sortMode=-1
 
-[Containments][52][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Documents/kde-plasma-setup/wallpapers/5.png
+[Containments][61][Wallpaper][org.kde.image][General]
+Image=file:///home/dan/Documents/kde-plasma-setup/wallpapers/11.jpg
 
-[Containments1Appletsts][4][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:google-chrome-beta.desktop,applications:spotify.desktop,applications:typora.desktop,applications:atom.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop,applications:openlp.desktop,applications:github-desktop.desktop,applications:virtualbox.desktop
+[Containments][61][Wallpaper][org.kde.potd][General]
+FillMode=2
+Provider=unsplash
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Screenshot_20200501_122851.png,0,desktop:/Screenshot_20200501_123127.png,0,desktop:/Screenshot_20200501_123230.png,0,desktop:/frame_2.2.png.webp,0,desktop:/Screenshot_20200501_122714.png,0,desktop:/ImagedatabaseApplication,0
+screenMapping=desktop:/Penn Masala,0,desktop:/Text File.json,0,desktop:/Text File.txt,0,desktop:/Why-Prophecies-Fail-Koinonia-with-Apostle-Joshua-Selman-Nimmak-mp3-image.jpg,0
