@@ -1,6 +1,6 @@
 [%General]
-author=kole
-comment=Dark Mode (macOS look)
+author=LuwX
+comment=A dark theme based on macOS Mojave
 x11drag=all
 alt_mnemonic=true
 left_tabs=false
@@ -17,7 +17,7 @@ tooltip_shadow_depth=10
 scroll_width=12
 scroll_arrows=true
 scroll_min_extent=50
-scrollbar_in_view=false
+scrollbar_in_view=true
 transient_scrollbar=true
 slider_width=4
 slider_handle_width=20
@@ -47,7 +47,7 @@ combo_menu=true
 combo_focus_rect=false
 square_combo_button=true
 hide_combo_checkboxes=false
-animate_states=false
+animate_states=true
 button_contents_shift=true
 groupbox_top_label=false
 inline_spin_indicators=true
@@ -64,14 +64,8 @@ submenu_overlap=0
 tooltip_delay=-1
 transient_groove=true
 tree_branch_line=false
-saturation=1.00
-contrast=1.00
-dialog_button_layout=0
-intensity=0.20
-no_focus_rect=false
-no_inactiveness=false
-reduce_menu_opacity=0
-shadowless_popup=false
+saturation=1.5
+contrast=0.9
 
 [Focus]
 inherits=PanelButtonCommand
@@ -86,33 +80,35 @@ frame.patternsize=20
 
 
 [GeneralColors]
-window.color=#161819
-base.color=#161819
-alt.base.color=#131516
+window.color=#1e1e1e
+base.color=#211f1d
+alt.base.color=#292624
 button.color=#f6f6f6
-light.color=#f6f6f6
-mid.light.color=#f5f5f5
+light.color=#5a5a5a
+mid.light.color=#555555
 dark.color=#c8c8c8
-mid.color=#c6c8cc00
-highlight.color=#27466C
-inactive.highlight.color=#27466C
+mid.color=#3c3c3c
+highlight.color=#5294e2
+inactive.highlight.color=#5294e2
+inactive.alt.base.color=#282828
 text.color=#e5e5e5
-inactive.text.color=#6f6f6f
-window.text.color=#ffffff
+window.text.color=#f1f1f1
+inactive.window.text.color=#e5e5e5
 button.text.color=#ffffff
 disabled.text.color=#999999
-tooltip.text.color=#cbcbcb
+tooltip.text.color=#efefef
 highlight.text.color=#ffffff
-link.color=#25577b
+link.color=#4AAFF7
 link.visited.color=#452886
 progress.indicator.text.color=#f6f6f6
+min_height=35
 
 [Hacks]
 transparent_ktitle_label=true
 transparent_dolphin_view=false
-transparent_pcmanfm_sidepane=false
+transparent_pcmanfm_sidepane=true
 blur_translucent=true
-transparent_menutitle=false
+transparent_menutitle=true
 respect_darkness=false
 kcapacitybar_as_progressbar=true
 force_size_grip=true
@@ -122,18 +118,16 @@ disabled_icon_opacity=100
 lxqtmainmenu_iconsize=0
 middle_click_scroll=false
 no_selection_tint=true
-normal_default_pushbutton=false
+normal_default_pushbutton=true
 single_top_toolbar=true
 tint_on_mouseover=0
 transparent_pcmanfm_view=false
-opaque_colors=false
-scroll_jump_workaround=false
 
 [PanelButtonCommand]
 frame=true
 frame.element=button
-frame.top=1
-frame.bottom=1
+frame.top=2
+frame.bottom=2
 frame.left=3
 frame.right=3
 interor=true
@@ -157,8 +151,8 @@ text.margin.bottom=0
 text.margin.left=4
 text.margin.right=4
 frame.expansion=12
-min_width=22
-min_height=28
+min_width=26
+min_height=24
 
 
 [PanelButtonTool]
@@ -340,10 +334,10 @@ text.normal.color=#f1f1f1
 text.focus.color=#f1f1f1
 text.normal.inactive.color=#e0e0e0
 inactive.text.normal.color=#e0e0e0
-frame.left=0
+frame.left=4
 frame.right=0
 frame.top=0
-frame.bottom=9
+frame.bottom=7
 frame.expansion=0
 
 [Slider]

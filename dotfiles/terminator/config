@@ -6,40 +6,15 @@
 [keybindings]
 [profiles]
   [[default]]
-    allow_bold = False
-    background_color = "#1e1f29"
+    background_color = "#0e1019"
     background_darkness = 1.0
     background_type = transparent
-    cursor_color = "#aaaaaa"
-    font = Fira Code Medium 14
-    foreground_color = "#f8f8f2"
+    cursor_color = "#ff0018"
+    font = SF Mono Powerline Medium 15
+    foreground_color = "#fffaf4"
     show_titlebar = False
     scrollbar_position = hidden
-    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
-    use_system_font = False
-    copy_on_selection = True
-  [[CrayonPonyFish]]
-    allow_bold = False
-    background_color = "#150707"
-    background_darkness = 1.0
-    background_type = transparent
-    cursor_color = "#68525a"
-    font = Fira Code 12
-    foreground_color = "#68525a"
-    show_titlebar = False
-    palette = "#2b1b1d:#91002b:#579524:#ab311b:#8c87b0:#692f50:#e8a866:#68525a:#3d2b2e:#c5255d:#8dff57:#c8381d:#cfc9ff:#fc6cba:#ffceaf:#b0949d"
-    use_system_font = False
-    copy_on_selection = True
-  [[Grape]]
-    allow_bold = False
-    background_color = "#171423"
-    background_darkness = 1.0
-    background_type = transparent
-    cursor_color = "#a288f7"
-    font = Fira Code 12
-    foreground_color = "#9f9fa1"
-    show_titlebar = False
-    palette = "#2d283f:#ed2261:#1fa91b:#8ddc20:#487df4:#8d35c9:#3bdeed:#9e9ea0:#59516a:#f0729a:#53aa5e:#b2dc87:#a9bcec:#ad81c2:#9de3eb:#a288f7"
+    palette = "#232323:#ff000f:#8ce10b:#ffb900:#008df8:#6d43a6:#00d8eb:#ffffff:#444444:#ff2740:#abe15b:#ffd242:#0092ff:#9a5feb:#67fff0:#ffffff"
     use_system_font = False
     copy_on_selection = True
   [[Horizon]]
@@ -54,44 +29,6 @@
     palette = "#e9436f:#f9cbbe:#ffaf87:#27d796:#6c6f93:#fdf0ed:#fadad1:#b877db:#e95379:#fadad1:#fac29a:#09f7a0:#6c6f8a:#ffffff:#eddad1:#b88adb"
     use_system_font = False
     copy_on_selection = True
-  [[Lavandula]]
-    allow_bold = False
-    background_color = "#050014"
-    background_darkness = 1.0
-    background_type = transparent
-    cursor_color = "#8c91fa"
-    font = Fira Code 12
-    foreground_color = "#736e7d"
-    show_titlebar = False
-    palette = "#230046:#7d1625:#337e6f:#7f6f49:#4f4a7f:#5a3f7f:#58777f:#736e7d:#372d46:#e05167:#52e0c4:#e0c386:#8e87e0:#a776e0:#9ad4e0:#8c91fa"
-    use_system_font = False
-    copy_on_selection = True
-  [[Monokai dark]]
-    allow_bold = False
-    background_color = "#272822"
-    background_darkness = 1.0
-    background_type = transparent
-    cursor_color = "#ffffff"
-    font = Fira Code 12
-    foreground_color = "#f8f8f2"
-    show_titlebar = False
-    palette = "#75715e:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#2aa198:#f9f8f5:#272822:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#2aa198:#f9f8f5"
-    use_system_font = False
-    copy_on_selection = True
-  [[One dark]]
-    allow_bold = False
-    background_color = "#1e2127"
-    background_darkness = 1.0
-    background_type = transparent
-    cursor_color = "#676c76"
-    font = Fira Code 12
-    foreground_color = "#5c6370"
-    show_titlebar = False
-    palette = "#000000:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#abb2bf:#5c6370:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#fffefe"
-    use_system_font = False
-    copy_on_selection = True
-  [[Dracula]]
-    cursor_color = "#aaaaaa"
 [layouts]
   [[default]]
     [[[child1]]]

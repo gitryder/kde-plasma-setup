@@ -16,49 +16,6 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][1][Applets][2]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][1][Applets][2][Configuration]
-PreloadWeight=100
-
-[Containments][1][Applets][2][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][Applets][2][Configuration][General]
-alphaSort=true
-favorites=firefox.desktop,qupzilla.desktop,org.kde.dolphin.desktop,org.kde.konversation.desktop,libreoffice-writer.desktop,cantata.desktop,kde4-digikam.desktop,org.kde.konsole.desktop,octopi.desktop,systemsettings.desktop
-favoritesPortedToKAstats=true
-icon=start-here-symbolic
-menuItems=bookmark:t,application:t,leave:t,oftenUsed:f,used:f,computer:f
-showAppsByName=true
-systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
-
-[Containments][1][Applets][2][Configuration][Shortcuts]
-global=Alt+F1
-
-[Containments][1][Applets][2][Shortcuts]
-global=Alt+F1
-
-[Containments][1][Applets][4]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][1][Applets][4][Configuration]
-PreloadWeight=0
-
-[Containments][1][Applets][4][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][1][Applets][4][Configuration][General]
-highlightWindows=true
-indicateAudioStreams=false
-launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:spotify.desktop,applications:dynalist.desktop,applications:typora.desktop,applications:visual-studio-code.desktop,applications:android-studio.desktop,applications:terminator.desktop
-maxStripes=3
-
 [Containments][1][Applets][50]
 immutability=1
 plugin=org.kde.plasma.systemtray
@@ -67,30 +24,62 @@ plugin=org.kde.plasma.systemtray
 PreloadWeight=100
 SystrayContainmentId=51
 
-[Containments][1][Applets][8]
+[Containments][1][Applets][76]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][1][Applets][8][Configuration]
-PreloadWeight=45
+[Containments][1][Applets][76][Configuration]
+PreloadWeight=65
 
-[Containments][1][Applets][8][Configuration][Appearance]
-fontFamily=Cantarell
-use24hFormat=2
+[Containments][1][Applets][76][Configuration][Appearance]
+fontFamily=SF Pro Display
+use24hFormat=0
 
-[Containments][1][Applets][8][Configuration][ConfigDialog]
+[Containments][1][Applets][76][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
+[Containments][1][Applets][82]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][1][Applets][82][Configuration][General]
+length=851
+
+[Containments][1][Applets][90]
+immutability=1
+plugin=org.kde.plasma.systemloadviewer
+
+[Containments][1][Applets][91]
+immutability=1
+plugin=org.kde.plasma.inlineBattery
+
+[Containments][1][Applets][91][Configuration]
+PreloadWeight=60
+
+[Containments][1][Applets][91][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][1][Applets][91][Configuration][General]
+fontSize=14
+iconHeight=14
+iconWidth=25
+padding=4
+
+[Containments][1][Applets][92]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
 [Containments][1][ConfigDialog]
 DialogHeight=85
-DialogWidth=1366
+DialogWidth=1280
 
 [Containments][1][Configuration]
 PreloadWeight=0
 
 [Containments][1][General]
-AppletOrder=2;4;50;8
+AppletOrder=92;82;90;91;50;76
 
 [Containments][51]
 activityId=
@@ -108,12 +97,8 @@ plugin=org.kde.plasma.volume
 [Containments][51][Applets][52][Configuration]
 PreloadWeight=100
 
-[Containments][51][Applets][53]
-immutability=1
-plugin=org.kde.plasma.clipboard
-
 [Containments][51][Applets][53][Configuration]
-PreloadWeight=0
+PreloadWeight=42
 
 [Containments][51][Applets][54]
 immutability=1
@@ -127,7 +112,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][51][Applets][55][Configuration]
-PreloadWeight=15
+PreloadWeight=25
 
 [Containments][51][Applets][56]
 immutability=1
@@ -161,23 +146,11 @@ plugin=org.kde.plasma.printmanager
 [Containments][51][Applets][59][Configuration]
 PreloadWeight=42
 
-[Containments][51][Applets][60]
-immutability=1
-plugin=tomatoid
-
 [Containments][51][Applets][60][Configuration]
-PreloadWeight=52
-
-[Containments][51][Applets][60][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][51][Applets][61]
-immutability=1
-plugin=org.kde.plasma.battery
+PreloadWeight=42
 
 [Containments][51][Applets][61][Configuration]
-PreloadWeight=0
+PreloadWeight=42
 
 [Containments][51][Applets][62][Configuration]
 PreloadWeight=42
@@ -187,14 +160,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][51][Applets][63][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][51][Applets][64]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][51][Applets][64][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 
 [Containments][51][Applets][65]
 immutability=1
@@ -203,9 +176,19 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][51][Applets][65][Configuration]
 PreloadWeight=0
 
+[Containments][51][Applets][94]
+immutability=1
+plugin=touchpad
+
+[Containments][51][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][51][General]
-extraItems=tomatoid,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume
+extraItems=org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume,flameshot,touchpad
+hiddenItems=flameshot
 knownItems=tomatoid,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume
+shownItems=touchpad
 
 [Containments][52][Wallpaper][org.kde.image][General]
 Image=/home/dan/Documents/kde-plasma-setup/wallpapers/Color Blaze 15 - 16x9.jpg
@@ -221,23 +204,32 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][61][ConfigDialog]
-DialogHeight=451
-DialogWidth=910
+DialogHeight=645
+DialogWidth=1104
 
 [Containments][61][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=452
+ToolBoxButtonX=393
 iconSize=3
-positions=1,13,desktop:/Preachings,0,0
+positions=6,13,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,10,desktop:/M3 2020-21,0,12,desktop:/Screenshot_20201105_150604.png,0,1,desktop:/app_details.txt,5,12,desktop:/logins.csv,0,0,desktop:/MacOS Mojave Dark,0,3,desktop:/mcOS_Mojave_BS_Night.zip,0,2,desktop:/OkHttpMoshiSandbox,0,11
 sortMode=-1
 
 [Containments][61][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Documents/kde-plasma-setup/wallpapers/11.jpg
+Image=file:///home/dan/Documents/kde-plasma-setup/wallpapers/1.jpg
 
 [Containments][61][Wallpaper][org.kde.potd][General]
 FillMode=2
 Provider=unsplash
 
+[Containments][93]
+activityId=9221f26a-6837-49d2-ba34-0f61fcb59d7a
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Preachings,0
+screenMapping=desktop:/logins.csv,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/Screenshot_20201105_150604.png,0,desktop:/mcOS_Mojave_BS_Night.zip,0,desktop:/M3 2020-21,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/mojave.latte,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/MacOS Mojave Dark,0,desktop:/app_details.txt,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/OkHttpMoshiSandbox,0

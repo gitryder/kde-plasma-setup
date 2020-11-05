@@ -3,14 +3,14 @@ update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=56,56,56
+Color=112,111,110
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
 Enable=
 IntensityAmount=0.1
-IntensityEffect=2
+IntensityEffect=0
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
@@ -19,26 +19,26 @@ ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
 ContrastEffect=2
-Enable=false
+Enable=true
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=77,77,77
-BackgroundNormal=66,66,66
-DecorationFocus=0,145,133
-DecorationHover=0,145,133
-ForegroundActive=23,231,214
-ForegroundInactive=130,130,130
-ForegroundLink=22,222,205
-ForegroundNegative=224,70,67
-ForegroundNeutral=245,126,0
+BackgroundAlternate=62,62,62
+BackgroundNormal=73,73,73
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,128,224
+ForegroundInactive=160,160,160
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
-ForegroundPositive=67,224,117
-ForegroundVisited=15,203,245
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
 
 [Colors:Complementary]
-BackgroundAlternate=38,38,38
+BackgroundAlternate=46,46,46
 BackgroundNormal=38,38,38
 DecorationFocus=21,209,193
 DecorationHover=22,222,205
@@ -52,82 +52,82 @@ ForegroundPositive=47,235,35
 ForegroundVisited=22,222,205
 
 [Colors:Selection]
-BackgroundAlternate=21,209,193
-BackgroundNormal=0,145,133
-DecorationFocus=0,145,133
-DecorationHover=0,145,133
-ForegroundActive=252,252,252
-ForegroundInactive=255,255,255
-ForegroundLink=232,200,62
-ForegroundNegative=224,70,67
-ForegroundNeutral=245,126,0
+BackgroundAlternate=115,115,115
+BackgroundNormal=115,115,115
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,128,224
+ForegroundInactive=160,160,160
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
-ForegroundPositive=67,224,117
-ForegroundVisited=189,195,199
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
 
 [Colors:Tooltip]
-BackgroundAlternate=46,46,46
-BackgroundNormal=77,77,77
-DecorationFocus=0,145,133
-DecorationHover=0,145,133
-ForegroundActive=23,231,214
-ForegroundInactive=130,130,130
-ForegroundLink=22,222,205
-ForegroundNegative=224,70,67
-ForegroundNeutral=245,126,0
-ForegroundNormal=230,230,230
-ForegroundPositive=67,224,117
-ForegroundVisited=15,203,245
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,128,224
+ForegroundInactive=225,225,225
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
 
 [Colors:View]
-BackgroundAlternate=38,38,38
-BackgroundNormal=38,38,38
-DecorationFocus=0,145,133
-DecorationHover=0,145,133
-ForegroundActive=23,231,214
-ForegroundInactive=130,130,130
-ForegroundLink=22,222,205
-ForegroundNegative=224,70,67
-ForegroundNeutral=245,126,0
-ForegroundNormal=227,227,227
-ForegroundPositive=67,224,117
-ForegroundVisited=15,203,245
+BackgroundAlternate=56,56,56
+BackgroundNormal=46,46,46
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,128,224
+ForegroundInactive=160,160,160
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
 
 [Colors:Window]
-BackgroundAlternate=46,46,46
-BackgroundNormal=38,38,38
-DecorationFocus=0,145,133
-DecorationHover=0,145,133
-ForegroundActive=23,231,214
-ForegroundInactive=130,130,130
-ForegroundLink=22,222,205
-ForegroundNegative=224,70,67
-ForegroundNeutral=245,126,0
-ForegroundNormal=222,222,222
-ForegroundPositive=67,224,117
-ForegroundVisited=15,203,245
+BackgroundAlternate=49,49,49
+BackgroundNormal=61,61,62
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,128,224
+ForegroundInactive=160,160,160
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=255,102,102
 
 [DirSelect Dialog]
-DirSelectDialog Size=875,600
-History Items[$e]=file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
+DirSelectDialog Size=860,582
+History Items[$e]=file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
 
 [General]
-ColorScheme=MateriaManjaroDarkSolid
+ColorScheme=Kvantum
 Name=Glassy
 TerminalApplication[$e]=terminator
 XftAntialias=true
 XftHintStyle=hintfull
 XftSubPixel=rgb
 dbfile=/home/dan/.mozilla/firefox/12qyj6n3.default/places.sqlite
-fixed=Cantarell,11,-1,5,50,0,0,0,0,0
-font=Cantarell,11,-1,5,50,0,0,0,0,0
-menuFont=Cantarell,11,-1,5,50,0,0,0,0,0
+fixed=SF Pro Display,10,-1,5,50,0,0,0,0,0
+font=SF Pro Display,11,-1,5,50,0,0,0,0,0
+menuFont=SF Pro Display,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Cantarell,10,-1,5,50,0,0,0,0,0
-toolBarFont=Cantarell,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=SF Pro Display,10,-1,5,50,0,0,0,0,0
+toolBarFont=SF Pro Display,10,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=breath2
+Theme=breath
 
 [KDE]
 AnimationDurationFactor=0
@@ -163,4 +163,10 @@ ScaleFactor=1
 ScreenScaleFactors=eDP-1=1;DP-1=1;HDMI-1=1;
 
 [WM]
-activeFont=Cantarell,11,-1,5,50,0,0,0,0,0
+activeBackground=61,61,62
+activeBlend=61,61,62
+activeFont=SF Pro Text,10,-1,5,50,0,0,0,0,0
+activeForeground=255,255,255
+inactiveBackground=61,61,62
+inactiveBlend=61,61,62
+inactiveForeground=155,155,155

@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Vi Movies and TV
+Exec=/opt/google/chrome-unstable/google-chrome-unstable --profile-directory=Default --app-id=ckjjpodbcgaekopgjhdkdcennaioahnd
+Icon=chrome-ckjjpodbcgaekopgjhdkdcennaioahnd-Default
+StartupWMClass=crx_ckjjpodbcgaekopgjhdkdcennaioahnd
