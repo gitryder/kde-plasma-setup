@@ -108,8 +108,8 @@ ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [DirSelect Dialog]
-DirSelectDialog Size=860,582
-History Items[$e]=file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
+DirSelectDialog Size=868,600
+History Items[$e]=file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Desktop,file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
 
 [General]
 ColorScheme=Kvantum
