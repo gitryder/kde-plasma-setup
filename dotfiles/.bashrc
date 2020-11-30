@@ -147,9 +147,9 @@ export EDITOR='vim'
 export VISUAL='vim'
 
 # Aliases for git commands
-alias gitp="git push"
-alias gitst="git status"
-alias gitcom="git commit -m"
+alias gaa="git add ."
+alias gss="git status"
+alias gcm="git commit -m"
 
 # Alias for dotfiles backup
 alias mkbackup="./mkbackup.sh"
@@ -165,5 +165,13 @@ alias cdbak="cd ~/Documents/kde-plasma-setup/"
 # Alias for printing local ipaddr
 alias mli="ifconfig | grep 192.168 | awk '{print substr(\$2,6,24)}'"
 
-# Use a custom bash prompt
-PS1="\[\e[33m\]\u\e[00m\[\e[32m\]@\e[00m\[\e[34m\]\h\e[00m \[\e[31m\]:\e[00m \[\e[35m\]$(mli)\e[00m \[\e[31m\]>\e[00m \w \n-> "
+# Custom Script for printing current git branch
+source ~/.git-prompt.sh
+GIT_PS1_SHOWDIRTYSTATE=true
+
+# Custom Bash Prompt 
+# PS1='\[\e[33m\]\u\e[00m\[\e[32m\]@\e[00m\[\e[34m\]\h\e[00m \[\e[31m\]:\e[00m \[\e[35m\]$(__git_ps1 " (%s)")\e[00m \[\e[31m\]>\e[00m \w \n-> ' 
+
+# Custom Bash Prompt w/ Git Branch
+PS1='\[\e[33m\]\u\e[00m\[\e[32m\]@\e[00m\[\e[34m\]\h\e[00m \[\e[31m\]>\e[00m \w \[\e[35m\]$(__git_ps1 "(%s)")\e[00m \n-> '
+

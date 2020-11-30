@@ -211,11 +211,11 @@ DialogWidth=1104
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=393
 iconSize=3
-positions=1,13,desktop:/M3 LaTeX SVGs,0,2,desktop:/M3 2020-21,0,1,desktop:/OkHttpMoshiSandbox,0,0,desktop:/OnePlus X Backup,0,11,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,10,desktop:/profile-pics,0,12
+positions=3,13,desktop:/People_Working_Illustration_Pack.zip,1,3,desktop:/DrawKit - People Working Illustration Pack.zip,1,5,desktop:/profile-pics,0,12,desktop:/Fresh-Folk-August-2019-Leni-Kauffman.zip,1,0,desktop:/Anonymous_Pro.zip,1,1,desktop:/the_living_word.png,0,8,desktop:/android-databinding,0,9,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,10,desktop:/OnePlus X Backup,0,11,desktop:/life.md,0,4,desktop:/mind-dump.md,0,5,desktop:/28-nov-todo.md,0,6,desktop:/Humaaans.fig,0,7,desktop:/OkHttpMoshiSandbox,0,0,desktop:/M3 2020-21,0,1,desktop:/M3 LaTeX SVGs,0,2,desktop:/SVG,0,3,desktop:/Illustrations,2,0
 sortMode=-1
 
 [Containments][61][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Downloads/The-Lake-5-dragged.jpg
+Image=file:///home/dan/Downloads/1114160.jpg
 
 [Containments][61][Wallpaper][org.kde.potd][General]
 FillMode=2
@@ -241,4 +241,4 @@ wallpaperplugin=org.kde.image
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/M3 LaTeX SVGs,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/OkHttpMoshiSandbox,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/OnePlus X Backup,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/mojave.latte,0,desktop:/M3 2020-21,0,desktop:/M3 Latex SVGs,0,desktop:/profile-pics,0
+screenMapping=desktop:/SVG,0,desktop:/Humaaans.fig,0,desktop:/People_Working_Illustration_Pack.zip,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/Anonymous_Pro.zip,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Text File.txt,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/28-nov-todo.md,0,desktop:/DrawKit - People Working Illustration Pack.zip,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/M3 Latex SVGs,0,desktop:/profile-pics,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/android-databinding,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/Illustrations,0,desktop:/mind-dump.md,0,desktop:/OkHttpMoshiSandbox,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/M3 LaTeX SVGs,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/OnePlus X Backup,0,desktop:/mojave.latte,0,desktop:/life.md,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/the_living_word.png,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/M3 2020-21,0,desktop:/Fresh-Folk-August-2019-Leni-Kauffman.zip,0

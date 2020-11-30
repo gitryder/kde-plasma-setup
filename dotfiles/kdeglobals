@@ -24,95 +24,95 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=62,62,62
-BackgroundNormal=73,73,73
+BackgroundAlternate=65,70,84
+BackgroundNormal=150,212,36
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,128,224
+ForegroundActive=255,170,0
 ForegroundInactive=160,160,160
 ForegroundLink=46,184,230
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
-ForegroundNormal=255,255,255
+ForegroundNormal=23,24,30
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=170,89,197
 
 [Colors:Complementary]
-BackgroundAlternate=46,46,46
-BackgroundNormal=38,38,38
-DecorationFocus=21,209,193
-DecorationHover=22,222,205
-ForegroundActive=245,126,0
-ForegroundInactive=175,176,179
-ForegroundLink=22,222,205
-ForegroundNegative=230,72,67
-ForegroundNeutral=235,202,59
+BackgroundAlternate=66,66,66
+BackgroundNormal=51,51,51
+DecorationFocus=49,91,239
+DecorationHover=49,91,239
+ForegroundActive=246,116,0
+ForegroundInactive=136,136,136
+ForegroundLink=49,91,239
+ForegroundNegative=237,21,21
+ForegroundNeutral=201,206,59
 ForegroundNormal=222,222,222
-ForegroundPositive=47,235,35
-ForegroundVisited=22,222,205
+ForegroundPositive=17,209,22
+ForegroundVisited=49,91,239
 
 [Colors:Selection]
-BackgroundAlternate=115,115,115
-BackgroundNormal=115,115,115
+BackgroundAlternate=82,148,226
+BackgroundNormal=82,148,226
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,128,224
+ForegroundActive=255,170,0
 ForegroundInactive=160,160,160
 ForegroundLink=46,184,230
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=170,89,197
 
 [Colors:Tooltip]
 BackgroundAlternate=0,0,0
 BackgroundNormal=0,0,0
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,128,224
+ForegroundActive=255,170,0
 ForegroundInactive=225,225,225
 ForegroundLink=46,184,230
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=170,89,197
 
 [Colors:View]
-BackgroundAlternate=56,56,56
-BackgroundNormal=46,46,46
+BackgroundAlternate=60,67,79
+BackgroundNormal=64,69,82
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,128,224
+ForegroundActive=255,170,0
 ForegroundInactive=160,160,160
 ForegroundLink=46,184,230
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=170,89,197
 
 [Colors:Window]
-BackgroundAlternate=49,49,49
-BackgroundNormal=61,61,62
+BackgroundAlternate=56,60,74
+BackgroundNormal=56,60,74
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,128,224
+ForegroundActive=255,170,0
 ForegroundInactive=160,160,160
 ForegroundLink=46,184,230
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=170,89,197
 
 [DirSelect Dialog]
-DirSelectDialog Size=868,600
-History Items[$e]=file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Desktop,file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
+DirSelectDialog Size=866,600
+History Items[$e]=file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Desktop,file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
 
 [General]
-ColorScheme=Kvantum
+ColorScheme=Glassy
 Name=Glassy
 TerminalApplication[$e]=terminator
 XftAntialias=true
@@ -137,7 +137,7 @@ ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
 contrast=0
-widgetStyle=Breeze
+widgetStyle=kvantum
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -163,10 +163,10 @@ ScaleFactor=1
 ScreenScaleFactors=eDP-1=1;DP-1=1;HDMI-1=1;
 
 [WM]
-activeBackground=61,61,62
-activeBlend=61,61,62
+activeBackground=56,60,74
+activeBlend=56,60,74
 activeFont=SF Pro Text,10,-1,5,50,0,0,0,0,0
-activeForeground=255,255,255
-inactiveBackground=61,61,62
-inactiveBlend=61,61,62
-inactiveForeground=155,155,155
+activeForeground=56,60,74
+inactiveBackground=56,60,74
+inactiveBlend=110,255,20
+inactiveForeground=56,60,74

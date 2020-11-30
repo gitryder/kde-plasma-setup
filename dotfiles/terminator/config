@@ -6,27 +6,15 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#0e1019"
+    background_color = "#132738"
     background_darkness = 1.0
     background_type = transparent
-    cursor_color = "#ff0018"
-    font = SF Mono Powerline Medium 15
-    foreground_color = "#fffaf4"
+    cursor_color = "#f0cc09"
+    font = Anonymous Pro Bold 17
+    foreground_color = "#ffffff"
     show_titlebar = False
     scrollbar_position = hidden
-    palette = "#232323:#ff000f:#8ce10b:#ffb900:#008df8:#6d43a6:#00d8eb:#ffffff:#444444:#ff2740:#abe15b:#ffd242:#0092ff:#9a5feb:#67fff0:#ffffff"
-    use_system_font = False
-    copy_on_selection = True
-  [[Horizon]]
-    allow_bold = False
-    background_color = "#1c1e26"
-    background_darkness = 1.0
-    background_type = transparent
-    cursor_color = "#e95379"
-    font = Fira Code 12
-    foreground_color = "#bbbbbb"
-    show_titlebar = False
-    palette = "#e9436f:#f9cbbe:#ffaf87:#27d796:#6c6f93:#fdf0ed:#fadad1:#b877db:#e95379:#fadad1:#fac29a:#09f7a0:#6c6f8a:#ffffff:#eddad1:#b88adb"
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#f40e17:#3bd01d:#edc809:#5555ff:#ff55ff:#6ae3fa:#ffffff"
     use_system_font = False
     copy_on_selection = True
 [layouts]
