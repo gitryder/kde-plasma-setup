@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=100
+PreloadWeight=72
 SystrayContainmentId=51
 
 [Containments][1][Applets][76]
@@ -29,7 +29,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][1][Applets][76][Configuration]
-PreloadWeight=65
+PreloadWeight=19
 
 [Containments][1][Applets][76][Configuration][Appearance]
 fontFamily=Roboto Mono Medium
@@ -43,6 +43,9 @@ DialogWidth=800
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][1][Applets][82][Configuration]
+PreloadWeight=0
+
 [Containments][1][Applets][82][Configuration][General]
 length=851
 
@@ -50,12 +53,15 @@ length=851
 immutability=1
 plugin=org.kde.plasma.systemloadviewer
 
+[Containments][1][Applets][90][Configuration]
+PreloadWeight=0
+
 [Containments][1][Applets][91]
 immutability=1
 plugin=org.kde.plasma.inlineBattery
 
 [Containments][1][Applets][91][Configuration]
-PreloadWeight=65
+PreloadWeight=14
 
 [Containments][1][Applets][91][Configuration][ConfigDialog]
 DialogHeight=600
@@ -70,6 +76,12 @@ padding=4
 [Containments][1][Applets][92]
 immutability=1
 plugin=org.kde.plasma.taskmanager
+
+[Containments][1][Applets][92][Configuration]
+PreloadWeight=0
+
+[Containments][1][Applets][92][Configuration][General]
+launchers=
 
 [Containments][1][ConfigDialog]
 DialogHeight=85
@@ -95,7 +107,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][51][Applets][52][Configuration]
-PreloadWeight=100
+PreloadWeight=49
 
 [Containments][51][Applets][53][Configuration]
 PreloadWeight=42
@@ -105,35 +117,35 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][51][Applets][54][Configuration]
-PreloadWeight=100
+PreloadWeight=74
 
 [Containments][51][Applets][55]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][51][Applets][55][Configuration]
-PreloadWeight=25
+PreloadWeight=0
 
 [Containments][51][Applets][56]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][51][Applets][56][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][51][Applets][57]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][51][Applets][57][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][51][Applets][58]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][51][Applets][58][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][51][Applets][58][Configuration][ConfigDialog]
 DialogHeight=540
@@ -144,7 +156,7 @@ immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][51][Applets][59][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][51][Applets][60][Configuration]
 PreloadWeight=42
@@ -160,14 +172,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][51][Applets][63][Configuration]
-PreloadWeight=100
+PreloadWeight=44
 
 [Containments][51][Applets][64]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][51][Applets][64][Configuration]
-PreloadWeight=100
+PreloadWeight=49
 
 [Containments][51][Applets][65]
 immutability=1
@@ -180,9 +192,15 @@ PreloadWeight=0
 immutability=1
 plugin=touchpad
 
+[Containments][51][Applets][94][Configuration]
+PreloadWeight=0
+
 [Containments][51][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
+
+[Containments][51][Configuration]
+PreloadWeight=0
 
 [Containments][51][General]
 extraItems=org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume,flameshot,touchpad
@@ -207,15 +225,18 @@ wallpaperplugin=org.kde.image
 DialogHeight=645
 DialogWidth=1104
 
+[Containments][61][Configuration]
+PreloadWeight=0
+
 [Containments][61][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=393
-iconSize=3
-positions=3,13,desktop:/People_Working_Illustration_Pack.zip,1,3,desktop:/DrawKit - People Working Illustration Pack.zip,1,5,desktop:/profile-pics,0,12,desktop:/Fresh-Folk-August-2019-Leni-Kauffman.zip,1,0,desktop:/Anonymous_Pro.zip,1,1,desktop:/the_living_word.png,0,8,desktop:/android-databinding,0,9,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,10,desktop:/OnePlus X Backup,0,11,desktop:/life.md,0,4,desktop:/mind-dump.md,0,5,desktop:/28-nov-todo.md,0,6,desktop:/Humaaans.fig,0,7,desktop:/OkHttpMoshiSandbox,0,0,desktop:/M3 2020-21,0,1,desktop:/M3 LaTeX SVGs,0,2,desktop:/SVG,0,3,desktop:/Illustrations,2,0
+iconSize=2
+positions=1,13,desktop:/ide_settings_github_token.txt,0,8,desktop:/Student Documents,0,11,desktop:/Kohinoor_Bike_Parking_Application.pdf,0,10,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,12,desktop:/M3 LaTeX SVGs,0,3,desktop:/M3 2020-21,0,2,desktop:/life.md,0,5,desktop:/28-nov-todo.md,0,7,desktop:/mind-dump.md,0,6
 sortMode=-1
 
 [Containments][61][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Downloads/1114160.jpg
+Image=file:///home/dan/Downloads/906947.jpg
 
 [Containments][61][Wallpaper][org.kde.potd][General]
 FillMode=2
@@ -230,6 +251,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][93][Configuration]
+PreloadWeight=0
+
 [Containments][95]
 activityId=9221f26a-6837-49d2-ba34-0f61fcb59d7a
 formfactor=0
@@ -239,6 +263,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][95][Configuration]
+PreloadWeight=0
+
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/SVG,0,desktop:/Humaaans.fig,0,desktop:/People_Working_Illustration_Pack.zip,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/Anonymous_Pro.zip,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Text File.txt,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/28-nov-todo.md,0,desktop:/DrawKit - People Working Illustration Pack.zip,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/M3 Latex SVGs,0,desktop:/profile-pics,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/android-databinding,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/Illustrations,0,desktop:/mind-dump.md,0,desktop:/OkHttpMoshiSandbox,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/M3 LaTeX SVGs,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/OnePlus X Backup,0,desktop:/mojave.latte,0,desktop:/life.md,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/the_living_word.png,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/M3 2020-21,0,desktop:/Fresh-Folk-August-2019-Leni-Kauffman.zip,0
+screenMapping=desktop:/Screenshot_20201110_134358.png,0,desktop:/life.md,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/M3 LaTeX SVGs,0,desktop:/mind-dump.md,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/mojave.latte,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/Kohinoor_Bike_Parking_Application.pdf,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/28-nov-todo.md,0,desktop:/Student Documents,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/M3 Latex SVGs,0,desktop:/20201209_145223824.pdf,0,desktop:/M3 2020-21,0,desktop:/ide_settings_github_token.txt,0
