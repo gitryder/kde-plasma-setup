@@ -156,7 +156,8 @@ alias mkbackup="./mkbackup.sh"
 
 # Alias for pamac search/install
 alias pams="pamac search"
-alias pami="pamac install"
+alias pamsi="pamac search -i"
+alias pami="pamac install --no-confirm"
 alias pamr="pamac remove"
 
 # Alias for cd-ing to kde-plasma-setup
