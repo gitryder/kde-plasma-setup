@@ -15,35 +15,35 @@ IntensityEffect=2
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025000000000000001
-ColorEffect=2
+ColorAmount=-0.95000000000000007
+ColorEffect=0
 ContrastAmount=0.10000000000000001
-ContrastEffect=2
+ContrastEffect=0
 Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=64,69,82
-BackgroundNormal=40,42,54
-DecorationFocus=124,96,163
-DecorationHover=124,96,163
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=248,248,242
-ForegroundPositive=80,250,122
-ForegroundVisited=82,148,226
+BackgroundAlternate=224,223,222
+BackgroundNormal=41,47,52
+DecorationFocus=26,188,156
+DecorationHover=26,188,156
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=255,255,255
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [Colors:Complementary]
-BackgroundAlternate=59,64,69
+BackgroundAlternate=62,71,78
 BackgroundNormal=49,54,59
 DecorationFocus=61,174,233
 DecorationHover=147,206,233
 ForegroundActive=147,206,233
-ForegroundInactive=175,176,179
+ForegroundInactive=67,76,84
 ForegroundLink=61,174,230
 ForegroundNegative=231,76,60
 ForegroundNeutral=253,188,75
@@ -52,96 +52,96 @@ ForegroundPositive=46,174,230
 ForegroundVisited=61,174,230
 
 [Colors:Header]
-BackgroundAlternate=47,52,63
-BackgroundNormal=40,42,54
-DecorationFocus=124,96,163
-DecorationHover=124,96,163
-ForegroundActive=139,233,253
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=248,248,242
-ForegroundPositive=80,250,122
-ForegroundVisited=68,71,90
+BackgroundAlternate=62,71,78
+BackgroundNormal=41,47,52
+DecorationFocus=26,188,156
+DecorationHover=26,188,156
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=255,255,255
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [Colors:Selection]
-BackgroundAlternate=29,153,243
-BackgroundNormal=124,96,163
-DecorationFocus=124,96,163
-DecorationHover=124,96,163
-ForegroundActive=252,252,252
-ForegroundInactive=211,218,227
-ForegroundLink=253,188,75
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=254,254,254
-ForegroundPositive=80,250,122
-ForegroundVisited=189,195,199
+BackgroundAlternate=54,215,183
+BackgroundNormal=26,188,156
+DecorationFocus=26,188,156
+DecorationHover=26,188,156
+ForegroundActive=96,55,113
+ForegroundInactive=222,222,222
+ForegroundLink=0,98,218
+ForegroundNegative=231,76,60
+ForegroundNeutral=168,88,23
+ForegroundNormal=255,255,255
+ForegroundPositive=37,116,165
+ForegroundVisited=145,61,136
 
 [Colors:Tooltip]
-BackgroundAlternate=47,52,63
-BackgroundNormal=53,57,69
-DecorationFocus=124,96,163
-DecorationHover=124,96,163
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=211,218,227
-ForegroundPositive=80,250,122
-ForegroundVisited=82,148,226
+BackgroundAlternate=62,71,78
+BackgroundNormal=41,47,52
+DecorationFocus=26,188,156
+DecorationHover=26,188,156
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=126,178,230
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=247,247,247
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [Colors:View]
-BackgroundAlternate=20,26,33
-BackgroundNormal=30,31,41
-DecorationFocus=124,96,163
-DecorationHover=124,96,163
-ForegroundActive=139,233,253
-ForegroundInactive=102,106,115
-ForegroundLink=82,148,226
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=248,248,242
-ForegroundPositive=80,250,122
-ForegroundVisited=124,183,255
+BackgroundAlternate=62,71,78
+BackgroundNormal=33,37,41
+DecorationFocus=26,188,156
+DecorationHover=26,188,156
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=255,255,255
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [Colors:Window]
-BackgroundAlternate=47,52,63
-BackgroundNormal=40,42,54
-DecorationFocus=124,96,163
-DecorationHover=124,96,163
-ForegroundActive=139,233,253
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=255,85,85
-ForegroundNeutral=255,184,108
-ForegroundNormal=248,248,242
-ForegroundPositive=80,250,122
-ForegroundVisited=68,71,90
+BackgroundAlternate=62,71,78
+BackgroundNormal=41,47,52
+DecorationFocus=26,188,156
+DecorationHover=26,188,156
+ForegroundActive=155,89,182
+ForegroundInactive=130,148,163
+ForegroundLink=76,107,138
+ForegroundNegative=231,76,60
+ForegroundNeutral=230,126,34
+ForegroundNormal=255,255,255
+ForegroundPositive=52,152,219
+ForegroundVisited=145,61,136
 
 [DirSelect Dialog]
-DirSelectDialog Size=866,600
-History Items[$e]=file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Desktop,file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
+DirSelectDialog Size=860,582
+History Items[$e]=file:$HOME/Desktop/Moca,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Desktop,file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
 
 [General]
-ColorScheme=DraculaPurple
+ColorScheme=Breath2Dark
 Name=Dracula
 TerminalApplication[$e]=terminator
 XftAntialias=true
 XftHintStyle=hintfull
 XftSubPixel=rgb
 dbfile=/home/dan/.mozilla/firefox/12qyj6n3.default/places.sqlite
-fixed=SF Pro Text,10,-1,5,50,0,0,0,0,0
-font=SF Pro Display,11,-1,5,50,0,0,0,0,0
-menuFont=SF Pro Display,10,-1,5,50,0,0,0,0,0
+fixed=Object Sans,10,-1,5,50,0,0,0,0,0
+font=Lato,11,-1,5,50,0,0,0,0,0
+menuFont=Lato,11,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=SF Pro Display,9,-1,5,50,0,0,0,0,0
-toolBarFont=SF Pro Display,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Lato,9,-1,5,50,0,0,0,0,0
+toolBarFont=Lato,11,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=BigSur-black
+Theme=breath2
 
 [KDE]
 AnimationDurationFactor=0
@@ -177,10 +177,10 @@ ScaleFactor=1
 ScreenScaleFactors=eDP-1=1;DP-1=1;HDMI-1=1;
 
 [WM]
-activeBackground=47,52,63
-activeBlend=47,52,63
-activeFont=SF Pro Display,10,-1,5,50,0,0,0,0,0
-activeForeground=211,218,227
-inactiveBackground=47,52,63
-inactiveBlend=47,52,63
-inactiveForeground=102,106,115
+activeBackground=41,47,52
+activeBlend=41,47,52
+activeFont=Lato,11,-1,5,50,0,0,0,0,0
+activeForeground=255,255,255
+inactiveBackground=41,47,52
+inactiveBlend=41,47,52
+inactiveForeground=130,130,130

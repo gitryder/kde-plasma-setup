@@ -12,54 +12,68 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
+
+[Containments][1][Applets][107]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][1][Applets][107][Configuration]
+PreloadWeight=2
+
+[Containments][1][Applets][107][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][1][Applets][107][Configuration][General]
+indicateAudioStreams=false
+launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:terminator.desktop,applications:spotify.desktop,applications:android-studio.desktop,applications:visual-studio-code.desktop
+maxStripes=1
+
+[Containments][1][Applets][108]
+immutability=1
+plugin=org.kde.plasma.betterinlineclock
+
+[Containments][1][Applets][108][Configuration]
+PreloadWeight=54
+
+[Containments][1][Applets][108][Configuration][Appearance]
+customOffsetY=1
+dateFormat=qtDate
+fixedFont=true
+fontSize=15
+use24hFormat=2
+
+[Containments][1][Applets][108][Configuration][ConfigDialog]
+DialogHeight=717
+DialogWidth=1366
+
+[Containments][1][Applets][110]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][1][Applets][110][Configuration]
+PreloadWeight=92
+
+[Containments][1][Applets][110][Configuration][General]
+favoritesPortedToKAstats=true
 
 [Containments][1][Applets][50]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=42
+PreloadWeight=68
 SystrayContainmentId=51
 
-[Containments][1][Applets][76]
+[Containments][1][Applets][96]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.pager
 
-[Containments][1][Applets][76][Configuration]
-PreloadWeight=5
-
-[Containments][1][Applets][76][Configuration][Appearance]
-boldText=true
-fontFamily=SF Mono
-showDate=false
-use24hFormat=2
-
-[Containments][1][Applets][76][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][1][Applets][82]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][1][Applets][82][Configuration]
-PreloadWeight=0
-
-[Containments][1][Applets][82][Configuration][General]
-length=529
-
-[Containments][1][Applets][92]
-immutability=1
-plugin=org.kde.plasma.taskmanager
-
-[Containments][1][Applets][92][Configuration]
-PreloadWeight=0
-
-[Containments][1][Applets][92][Configuration][General]
-launchers=
+[Containments][1][Applets][96][Configuration]
+PreloadWeight=2
 
 [Containments][1][ConfigDialog]
 DialogHeight=86
@@ -69,14 +83,14 @@ DialogWidth=1366
 PreloadWeight=0
 
 [Containments][1][General]
-AppletOrder=92;82;50;76
+AppletOrder=110;96;107;50;108
 
 [Containments][51]
 activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
@@ -85,7 +99,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][51][Applets][52][Configuration]
-PreloadWeight=14
+PreloadWeight=23
 
 [Containments][51][Applets][53][Configuration]
 PreloadWeight=42
@@ -95,7 +109,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][51][Applets][54][Configuration]
-PreloadWeight=39
+PreloadWeight=0
 
 [Containments][51][Applets][55]
 immutability=1
@@ -150,14 +164,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][51][Applets][63][Configuration]
-PreloadWeight=9
+PreloadWeight=28
 
 [Containments][51][Applets][64]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][51][Applets][64][Configuration]
-PreloadWeight=19
+PreloadWeight=0
 
 [Containments][51][Applets][65]
 immutability=1
@@ -208,13 +222,14 @@ PreloadWeight=0
 
 [Containments][61][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=344
+ToolBoxButtonX=361
+ToolBoxButtonY=22
 iconSize=1
-positions=2,14,desktop:/M3 2020-21,0,0,desktop:/M3 LaTeX SVGs,0,1,desktop:/mind-dump.md,0,6,desktop:/ide_settings_github_token.txt,0,7,desktop:/life.md,0,5,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,1,13,desktop:/Student Documents,0,12,desktop:/DSE20 Docs,0,13
+positions=4,14,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,13,desktop:/life.md,2,13,desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,1,13,desktop:/Moca,3,13
 sortMode=-1
 
 [Containments][61][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Downloads/1114160.jpg
+Image=/home/dan/Downloads/1114160.jpg
 SlidePaths=/home/dan/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][61][Wallpaper][org.kde.potd][General]
@@ -245,6 +260,9 @@ wallpaperplugin=org.kde.image
 [Containments][95][Configuration]
 PreloadWeight=0
 
+[Containments1Appletsts][109][Configuration][General]
+length=393
+
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/M3 Latex SVGs,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/mojave.latte,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/Student Documents,0,desktop:/20201209_145223824.pdf,0,desktop:/mind-dump.md,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/M3 2020-21,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/ide_settings_github_token.txt,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/M3 LaTeX SVGs,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/DSE20 Docs,0,desktop:/life.md,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0
+screenMapping=desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/consolaz.ttf,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/M3 Latex SVGs,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/CONSOLAB.TTF,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/life.md,0,desktop:/Moca,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/mojave.latte,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/20201209_145223824.pdf,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/Consolas.ttf,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/CONSOLA.TTF,0
