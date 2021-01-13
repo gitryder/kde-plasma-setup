@@ -149,7 +149,7 @@ export VISUAL='vim'
 # Aliases for git commands
 alias gaa="git add ."
 alias gss="git status"
-alias gcm="git commit -m"
+alias gcm="git commit -am"
 
 # Alias for dotfiles backup
 alias mkbackup="./mkbackup.sh"

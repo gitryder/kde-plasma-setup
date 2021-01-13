@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][1][Applets][107][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][1][Applets][107][Configuration][ConfigDialog]
 DialogHeight=600
@@ -29,7 +29,7 @@ DialogWidth=800
 
 [Containments][1][Applets][107][Configuration][General]
 indicateAudioStreams=false
-launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:terminator.desktop,applications:spotify.desktop,applications:android-studio.desktop,applications:visual-studio-code.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:terminator.desktop,applications:spotify.desktop,applications:signal-desktop.desktop,applications:android-studio.desktop,applications:visual-studio-code.desktop
 maxStripes=1
 
 [Containments][1][Applets][108]
@@ -37,17 +37,17 @@ immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
 [Containments][1][Applets][108][Configuration]
-PreloadWeight=54
+PreloadWeight=0
 
 [Containments][1][Applets][108][Configuration][Appearance]
 customOffsetY=1
 dateFormat=qtDate
 fixedFont=true
-fontSize=15
+fontSize=17
 use24hFormat=2
 
 [Containments][1][Applets][108][Configuration][ConfigDialog]
-DialogHeight=717
+DialogHeight=715
 DialogWidth=1366
 
 [Containments][1][Applets][110]
@@ -55,17 +55,24 @@ immutability=1
 plugin=org.kde.plasma.kickerdash
 
 [Containments][1][Applets][110][Configuration]
-PreloadWeight=92
+PreloadWeight=4
 
 [Containments][1][Applets][110][Configuration][General]
 favoritesPortedToKAstats=true
+
+[Containments][1][Applets][113]
+immutability=1
+plugin=org.kde.plasma.systemloadviewer
+
+[Containments][1][Applets][113][Configuration]
+PreloadWeight=0
 
 [Containments][1][Applets][50]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=68
+PreloadWeight=15
 SystrayContainmentId=51
 
 [Containments][1][Applets][96]
@@ -73,7 +80,7 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][1][Applets][96][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][1][ConfigDialog]
 DialogHeight=86
@@ -83,7 +90,7 @@ DialogWidth=1366
 PreloadWeight=0
 
 [Containments][1][General]
-AppletOrder=110;96;107;50;108
+AppletOrder=110;96;107;113;50;108
 
 [Containments][51]
 activityId=
@@ -94,12 +101,19 @@ location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
+[Containments][51][Applets][111]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][51][Applets][111][Configuration]
+PreloadWeight=0
+
 [Containments][51][Applets][52]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][51][Applets][52][Configuration]
-PreloadWeight=23
+PreloadWeight=0
 
 [Containments][51][Applets][53][Configuration]
 PreloadWeight=42
@@ -116,7 +130,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][51][Applets][55][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][51][Applets][56]
 immutability=1
@@ -164,7 +178,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][51][Applets][63][Configuration]
-PreloadWeight=28
+PreloadWeight=0
 
 [Containments][51][Applets][64]
 immutability=1
@@ -195,10 +209,11 @@ DialogWidth=800
 PreloadWeight=0
 
 [Containments][51][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume,flameshot,touchpad
+extraItems=org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume,flameshot,touchpad,org.kde.plasma.battery
 hiddenItems=flameshot
 knownItems=tomatoid,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume
-shownItems=touchpad
+scaleIconsToFit=true
+shownItems=touchpad,org.kde.plasma.battery
 
 [Containments][52][Wallpaper][org.kde.image][General]
 Image=/home/dan/Documents/kde-plasma-setup/wallpapers/Color Blaze 15 - 16x9.jpg
@@ -223,13 +238,16 @@ PreloadWeight=0
 [Containments][61][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=361
-ToolBoxButtonY=22
+ToolBoxButtonY=24
 iconSize=1
-positions=4,14,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,13,desktop:/life.md,2,13,desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,1,13,desktop:/Moca,3,13
+positions=6,14,desktop:/todo-14-jan.md,0,4,desktop:/bucket,0,3,desktop:/profile-pic.png,0,2,desktop:/IMG_20201219_115305-02.jpeg,0,1,desktop:/noah_app_redesign.gif,0,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,13,desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,1,13,desktop:/life.md,2,13,desktop:/Moca,3,13,desktop:/better-timer,4,13,desktop:/fenix,5,13
 sortMode=-1
 
+[Containments][61][Wallpaper][org.kde.color][General]
+Color=255,255,255
+
 [Containments][61][Wallpaper][org.kde.image][General]
-Image=/home/dan/Downloads/1114160.jpg
+Image=file:///home/dan/Documents/Worship Backgrounds/Stardust Shine 13 - 16x9.jpg
 SlidePaths=/home/dan/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][61][Wallpaper][org.kde.potd][General]
@@ -265,4 +283,4 @@ length=393
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/consolaz.ttf,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/M3 Latex SVGs,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/CONSOLAB.TTF,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/life.md,0,desktop:/Moca,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/mojave.latte,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/20201209_145223824.pdf,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/Consolas.ttf,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/CONSOLA.TTF,0
+screenMapping=desktop:/20201209_145223824.pdf,0,desktop:/noah_app_redesign.gif,0,desktop:/profile-pic.png,0,desktop:/consolaz.ttf,0,desktop:/Screenshot_2020-11-03 Is it advisable to learn two programming languages at the same time - Quora.png,0,desktop:/Peek 2021-01-07 17-12.gif,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/M3 Latex SVGs,0,desktop:/todo-14-jan.md,0,desktop:/CONSOLAB.TTF,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/better-timer,0,desktop:/fenix,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/mojave.latte,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/bucket,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/comparison.gif,0,desktop:/IMG_20201219_115305-02.jpeg,0,desktop:/Peek 2021-01-07 16-31.gif,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Moca,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/CONSOLA.TTF,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,0,desktop:/Consolas.ttf,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/life.md,0
