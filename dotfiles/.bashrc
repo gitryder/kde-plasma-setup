@@ -163,6 +163,9 @@ alias pamr="pamac remove"
 # Alias for cd-ing to kde-plasma-setup
 alias cdbak="cd ~/Documents/kde-plasma-setup/"
 
+# Alias for cpp programs
+alias gpp="g++"
+
 # Alias for printing local ipaddr
 alias mli="ifconfig | grep 192.168 | awk '{print substr(\$2,6,24)}'"
 

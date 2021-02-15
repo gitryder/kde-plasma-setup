@@ -122,15 +122,15 @@ ForegroundPositive=52,152,219
 ForegroundVisited=145,61,136
 
 [DirSelect Dialog]
-DirSelectDialog Size=860,582
-History Items[$e]=file:$HOME/Desktop/Moca,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Desktop,file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
+DirSelectDialog Size=866,582
+History Items[$e]=file:$HOME/Desktop/bucket,file:$HOME/Desktop/Moca,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Desktop,file:$HOME/Desktop/Mojave-dark,file:$HOME/Documents/kde-plasma-setup/kvantum/Mojave-dark,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Movies,file:$HOME/Downloads,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/Jellyfin/Anime/Rurouni-Kenshin,file:$HOME/Documents/KDE-Plasma-master/Kvantum Themes/Mojave-dark,file:$HOME/Downloads/Mojave-dark-red,file:$HOME/Downloads/Mojave-dark,file:$HOME
 
 [General]
 ColorScheme=Breath2Dark
 Name=Dracula
 TerminalApplication[$e]=terminator
 XftAntialias=true
-XftHintStyle=hintfull
+XftHintStyle=hintnone
 XftSubPixel=rgb
 dbfile=/home/dan/.mozilla/firefox/12qyj6n3.default/places.sqlite
 fixed=Lato,10,-1,5,50,0,0,0,0,0
