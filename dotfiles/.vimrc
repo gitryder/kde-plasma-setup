@@ -1,6 +1,6 @@
 :syntax on
 :set number relativenumber
-:set tabstop=4
+:set tabstop=2
 
 :set rtp+=/usr/lib/python3.8/site-packages/powerline/bindings/vim/
 :set laststatus=2
