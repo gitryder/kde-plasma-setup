@@ -9,7 +9,7 @@ gtk-fallback-icon-theme="breeze-dark"
 
 gtk-theme-name="Breath-Dark"
 gtk-icon-theme-name="breath2"
-gtk-font-name="Lato,  11"
+gtk-font-name="Lucida Grande,  11"
 gtk-cursor-theme-name="breeze_cursors"
 gtk-cursor-theme-size=24
 gtk-toolbar-style=3

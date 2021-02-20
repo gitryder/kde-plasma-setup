@@ -133,12 +133,12 @@ XftAntialias=true
 XftHintStyle=hintnone
 XftSubPixel=rgb
 dbfile=/home/dan/.mozilla/firefox/12qyj6n3.default/places.sqlite
-fixed=Lato,10,-1,5,50,0,0,0,0,0
-font=Lato,11,-1,5,50,0,0,0,0,0
-menuFont=Lato,11,-1,5,50,0,0,0,0,0
+fixed=Lucida Grande,10,-1,5,57,0,0,0,0,0,Regular
+font=Lucida Grande,11,-1,5,50,0,0,0,0,0
+menuFont=Lucida Grande,11,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Lato,9,-1,5,50,0,0,0,0,0
-toolBarFont=Lato,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=Lucida Grande,9,-1,5,50,0,0,0,0,0
+toolBarFont=Lucida Grande,11,-1,5,50,0,0,0,0,0
 
 [Icons]
 Theme=breath2
@@ -179,7 +179,7 @@ ScreenScaleFactors=eDP-1=1;DP-1=1;HDMI-1=1;
 [WM]
 activeBackground=41,47,52
 activeBlend=41,47,52
-activeFont=Lato,11,-1,5,50,0,0,0,0,0
+activeFont=Lucida Grande,11,-1,5,50,0,0,0,0,0
 activeForeground=255,255,255
 inactiveBackground=41,47,52
 inactiveBlend=41,47,52
