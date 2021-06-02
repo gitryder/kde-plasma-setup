@@ -26,4 +26,8 @@ cp ~/.vimrc $BACKUP_PATH
 cp ~/.bashrc $BACKUP_PATH
 
 # Copy /.local/share/applications/
-cp -r ~/.local/share/applications/ ~/Documents/kde-plasma-setup/dotfiles/applications/
+cp -r ~/.local/share/applications/ ~/Documents/kde-plasma-setup/dotfiles/applications/ 
+
+# Push updates to GitHub
+cd $BACKUP_PATH
+git add . && git commit -am ":sparkles: Update files" && git push 

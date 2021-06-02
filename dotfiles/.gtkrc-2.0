@@ -8,9 +8,9 @@ gtk-fallback-icon-theme="breeze-dark"
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 gtk-theme-name="Breath-Dark"
-gtk-icon-theme-name="breath2"
+gtk-icon-theme-name="Materia-Manjaro-Dark-2"
 gtk-font-name="Lucida Grande,  11"
-gtk-cursor-theme-name="breeze_cursors"
+gtk-cursor-theme-name="Oxygen_Yellow"
 gtk-cursor-theme-size=24
 gtk-toolbar-style=3
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
