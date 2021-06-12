@@ -184,6 +184,5 @@ GIT_PS1_SHOWDIRTYSTATE=true
 # Custom Bash Prompt w/ Git Branch
 PS1='\[\e[33m\]\u\e[00m\[\e[32m\]@\e[00m\[\e[34m\]\h\e[00m \[\e[31m\]>\e[00m \w \[\e[35m\]$(__git_ps1 "(%s)")\e[00m \n🏡 -> '
 
-export JAVA_HOME="/usr/lib/jvm/java-15-jdk"
-
-export PATH=$JAVA_HOME/bin:$PATH
+# alias to run docker as sudo
+alias docker="sudo docker "

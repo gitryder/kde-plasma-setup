@@ -29,7 +29,7 @@ DialogWidth=800
 
 [Containments][1][Applets][107][Configuration][General]
 indicateAudioStreams=false
-launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:spotify.desktop,applications:android-studio.desktop,applications:jetbrains-studio-preview.desktop,applications:atom.desktop,applications:visual-studio-code.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:firefox-developer-edition.desktop,applications:spotify.desktop,applications:android-studio.desktop,applications:jetbrains-studio-preview.desktop,applications:visual-studio-code.desktop,applications:atom.desktop
 maxStripes=1
 
 [Containments][1][Applets][108]
@@ -84,7 +84,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=46
+PreloadWeight=92
 SystrayContainmentId=51
 
 [Containments][1][Applets][96]
@@ -125,7 +125,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][51][Applets][52][Configuration]
-PreloadWeight=11
+PreloadWeight=50
 
 [Containments][51][Applets][53][Configuration]
 PreloadWeight=42
@@ -135,7 +135,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][51][Applets][54][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][51][Applets][55]
 immutability=1
@@ -190,14 +190,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][51][Applets][63][Configuration]
-PreloadWeight=10
+PreloadWeight=34
 
 [Containments][51][Applets][64]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][51][Applets][64][Configuration]
-PreloadWeight=5
+PreloadWeight=39
 
 [Containments][51][Applets][65]
 immutability=1
@@ -253,14 +253,14 @@ ToolBoxButtonX=237
 alignment=1
 arrangement=1
 iconSize=1
-positions=2,8,desktop:/Complete Guide to Starting Up,0,3,desktop:/better-timer,0,0,desktop:/bleezy,0,1,desktop:/Student Documents,0,6,desktop:/rema thareja.pdf,0,7,desktop:/dbms-crud,0,4,desktop:/fenix,0,5,desktop:/docker_cool.mp4,1,2,desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,1,0,desktop:/Thomas H. Cormen\\, Charles E. Leiserson\\, Ronald L. Rivest\\, Clifford Stein - Introduction to Algorithms-MIT Press (2009).pdf,1,1,desktop:/bucket,0,2
+positions=3,8,desktop:/better-timer,0,0,desktop:/bleezy,0,1,desktop:/bucket,0,2,desktop:/Complete Guide to Starting Up,0,3,desktop:/message.txt,1,4,desktop:/same,1,5,desktop:/Screenshot_20210609_183956.png,1,6,desktop:/NOAH_app_concept.mp4,1,7,desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,1,0,desktop:/Thomas H. Cormen\\, Charles E. Leiserson\\, Ronald L. Rivest\\, Clifford Stein - Introduction to Algorithms-MIT Press (2009).pdf,1,1,desktop:/carbon.png,1,2,desktop:/jamie-street-_94HLr_QXo8-unsplash.jpg,1,3,desktop:/pop-os_20.10_amd64_intel_16.iso,2,0,desktop:/nkjv.xml,2,1,desktop:/test.json,2,2,desktop:/cantknow.jpg,2,3,desktop:/dbms-crud,0,4,desktop:/fenix,0,5,desktop:/Student Documents,0,6,desktop:/rema thareja.pdf,0,7
 sortMode=-1
 
 [Containments][61][Wallpaper][org.kde.color][General]
 Color=255,255,255
 
 [Containments][61][Wallpaper][org.kde.image][General]
-Image=file:///home/dan/Documents/kde-plasma-setup/wallpapers/21.png
+Image=/home/dan/Documents/kde-plasma-setup/wallpapers/22.jpg
 SlidePaths=/home/dan/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][61][Wallpaper][org.kde.potd][General]
@@ -301,4 +301,4 @@ length=393
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Peek 2021-01-07 16-31.gif,0,desktop:/fenix,0,desktop:/consolaz.ttf,0,desktop:/PP_EXP10.pdf,0,desktop:/comparison.gif,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/M3 Latex SVGs,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/CONSOLA.TTF,0,desktop:/mojave.latte,0,desktop:/20201209_145223824.pdf,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/Peek 2021-01-07 17-12.gif,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/bucket,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/dbms-crud,0,desktop:/Thomas H. Cormen\\, Charles E. Leiserson\\, Ronald L. Rivest\\, Clifford Stein - Introduction to Algorithms-MIT Press (2009).pdf,0,desktop:/rema thareja.pdf,0,desktop:/Analysis of Insertion Sort,0,desktop:/Student Documents,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/Peek 2021-05-14 15-47.mp4,0,desktop:/bleezy,0,desktop:/CONSOLAB.TTF,0,desktop:/better-timer,0,desktop:/PP_72_Exp2.pdf,0,desktop:/seat_acceptance_receipt,0,desktop:/Complete Guide to Starting Up,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/docker_cool.mp4,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/Thanks.pdf,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Consolas.ttf,0,desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0
+screenMapping=desktop:/dbms-crud,0,desktop:/bucket,0,desktop:/Analysis of Insertion Sort,0,desktop:/PP_EXP10.pdf,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Thomas H. Cormen\\, Charles E. Leiserson\\, Ronald L. Rivest\\, Clifford Stein - Introduction to Algorithms-MIT Press (2009).pdf,0,desktop:/M3 Latex SVGs,0,desktop:/Thanks.pdf,0,desktop:/CONSOLA.TTF,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/better-timer,0,desktop:/same,0,desktop:/comparison.gif,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/Peek 2021-01-07 17-12.gif,0,desktop:/NOAH_app_concept.mp4,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/nkjv.xml,0,desktop:/PP_72_Exp2.pdf,0,desktop:/consolaz.ttf,0,desktop:/Complete Guide to Starting Up,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/test.json,0,desktop:/mojave.latte,0,desktop:/Peek 2021-01-07 16-31.gif,0,desktop:/rema thareja.pdf,0,desktop:/carbon.png,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/fenix,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/Peek 2021-05-14 15-47.mp4,0,desktop:/bleezy,0,desktop:/cantknow.jpg,0,desktop:/seat_acceptance_receipt,0,desktop:/Screenshot_20210609_183956.png,0,desktop:/message.txt,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/CONSOLAB.TTF,0,desktop:/Student Documents,0,desktop:/20201209_145223824.pdf,0,desktop:/Consolas.ttf,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/pop-os_20.10_amd64_intel_16.iso,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/Sawyer\\, W. W - Mathematician's Delight-Dover Publications (2012).epub,0,desktop:/jamie-street-_94HLr_QXo8-unsplash.jpg,0
