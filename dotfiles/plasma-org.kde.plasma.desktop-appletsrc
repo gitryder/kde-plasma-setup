@@ -45,14 +45,14 @@ immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
 [Containments][1][Applets][128][Configuration]
-PreloadWeight=28
+PreloadWeight=0
 
 [Containments][1][Applets][130]
 immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][1][Applets][130][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][1][Applets][130][Configuration][ConfigDialog]
 DialogHeight=480
@@ -66,7 +66,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=84
+PreloadWeight=16
 SystrayContainmentId=51
 
 [Containments][1][Applets][96]
@@ -107,7 +107,10 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][51][Applets][52][Configuration]
-PreloadWeight=1
+PreloadWeight=0
+
+[Containments][51][Applets][52][Configuration][General]
+globalMute=true
 
 [Containments][51][Applets][53][Configuration]
 PreloadWeight=42
@@ -172,14 +175,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][51][Applets][63][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][51][Applets][64]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][51][Applets][64][Configuration]
-PreloadWeight=0
+PreloadWeight=6
 
 [Containments][51][Applets][65]
 immutability=1
@@ -236,7 +239,7 @@ ToolBoxButtonY=28
 alignment=1
 arrangement=1
 iconSize=1
-positions=1,8,desktop:/bucket,0,0,desktop:/Text File.txt,0,1
+positions=1,8,desktop:/Text File.txt,0,1,desktop:/bucket,0,0
 sortMode=-1
 
 [Containments][61][Wallpaper][org.kde.color][General]
@@ -284,4 +287,4 @@ length=393
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Analysis of Insertion Sort,0,desktop:/Peek 2021-01-07 17-12.gif,0,desktop:/seat_acceptance_receipt,0,desktop:/Consolas.ttf,0,desktop:/20201209_145223824.pdf,0,desktop:/Peek 2021-05-14 15-47.mp4,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/PP_72_Exp2.pdf,0,desktop:/Thanks.pdf,0,desktop:/CONSOLA.TTF,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/M3 Latex SVGs,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/comparison.gif,0,desktop:/Text File.txt,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/PP_EXP10.pdf,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/bucket,0,desktop:/Peek 2021-01-07 16-31.gif,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/CONSOLAB.TTF,0,desktop:/mojave.latte,0,desktop:/bleezy,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/consolaz.ttf,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/better-timer,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0
+screenMapping=desktop:/consolaz.ttf,0,desktop:/Sanam/Sanam - Gulabi Aankhen.flac,0,desktop:/better-timer,0,desktop:/M3 Latex SVGs,0,desktop:/WhatsApp Chat with Developer Community India.txt,0,desktop:/Peek 2021-01-07 17-12.gif,0,desktop:/PP_EXP10.pdf,0,desktop:/Thanks.pdf,0,desktop:/bleezy,0,desktop:/Sanam/Sanam - Dil Kya Kare.flac,0,desktop:/Text File.txt,0,desktop:/CONSOLAB.TTF,0,desktop:/Consolas.ttf,0,desktop:/Peek 2021-01-07 16-31.gif,0,desktop:/Sanam/Sanam - Taarif Karoon.flac,0,desktop:/Sanam/Sanam - Kahin Door.flac,0,desktop:/Sanam/Sanam - Lag Ja Gale.flac,0,desktop:/mojave.latte,0,desktop:/mcOS_Mojave_BS_Night,0,desktop:/seat_acceptance_receipt,0,desktop:/20201209_145223824.pdf,0,desktop:/comparison.gif,0,desktop:/Sanam/Sanam - Pehla Nasha.flac,0,desktop:/Sanam/Sanam - Mere Sapnon Ki Rani Kab Aayege Tu.flac,0,desktop:/Screenshot_20201110_141153.png,0,desktop:/Peek 2021-05-14 15-47.mp4,0,desktop:/CONSOLA.TTF,0,desktop:/bucket,0,desktop:/Sanam/Sanam - Ek Pyar Ka Nagma Hai.flac,0,desktop:/Screenshot_20201110_134358.png,0,desktop:/PP_72_Exp2.pdf,0,desktop:/Sanam/Sanam - Yeh Vaada Raha.flac,0,desktop:/Sanam/Sanam - Aajkal Tere Mere Pyar Ke Charche.flac,0,desktop:/Analysis of Insertion Sort,0

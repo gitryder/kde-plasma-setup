@@ -27,7 +27,7 @@ fc-cache -f -v
 
 # Installation of dotfiles
 echo -e "\e[1;32mInstalling your dotfiles...\e[0m"
-
+'
 echo -e "\e[1;34m==> Copying GTK-2.0 config...\e[0m"
 cp dotfiles/.gtkrc-2.0 ~/
 cp -r dotfiles/gtk-2.0/ ~/.config/
@@ -43,7 +43,7 @@ cp -r dotfiles/plasma-org.kde.plasma.desktop-appletsrc ~/.config/
 
 echo -e "\e[1;34m==> Copying Kvantum config...\e[0m"
 cp -r dotfiles/Kvantum/ ~/.config/
-
+'
 echo -e "\e[1;34m==> Copying Terminator config...\e[0m"
 cp -r dotfiles/terminator/ ~/.config/
 
@@ -52,7 +52,7 @@ cp dotfiles/.vimrc ~/
 
 echo -e "\e[1;34m==> Copying Bash Config...\e[0m"
 cp dotfiles/.bashrc ~/
-
+'
 echo -e "\e[1;34m==> Copying Application .desktop files...\e[0m"
 mkdir -p ~/.local/share/applications/
 cp -r dotfiles/applications ~/.local/share/applications/ 
@@ -77,7 +77,7 @@ cp -r themes/Glassy/ ~/.local/share/plasma/desktoptheme/Glassy/
 echo -e "\e[1;34m==> Copying .kde4 config...\e[0m"
 mkdir -p ~/.kde4/share/
 cp -r kde4/share/ ~/.kde4/share
-
+'
 # Installation Script Ended
 echo -e "\e[1;32m==> Installation has finished\e[0m"
 echo -e "\e[1;32m==> Reboot now? [y/n]\e[0m"; read choice 
